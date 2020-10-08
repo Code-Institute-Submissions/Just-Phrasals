@@ -1,0 +1,46 @@
+
+/* ....................................Navbar*/
+
+.navbar {
+    background-color: rgb(51, 50, 120);
+}
+
+.navbar-brand {
+    color: whitesmoke;
+}
+
+.navbar-brand:hover {
+    color: #ffe507;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: whitesmoke;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ffe507;
+}
+
+.callout-container {
+    height: 75vh;
+    background: url("../images/homepage-image.jpg") no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.callout-slogan {
+    color: whitesmoke;
+    text-decoration: bold;
+    background-color: rgb(51, 50, 120, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+
+}
