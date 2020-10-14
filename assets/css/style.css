@@ -21,6 +21,8 @@
     color: #ffe507;
 }
 
+/* ....................................Callout Section*/
+
 .callout-container {
     height: 75vh;
     background: url("../images/homepage-image.jpg") no-repeat center fixed; 
@@ -43,4 +45,12 @@
     padding: 2rem;
     border-radius: 10px;
 
+}
+
+.explainer-container {
+    background-color: rgb(51, 50, 120)
+}
+
+.explainer-headings {
+    color: whitesmoke;
 }
