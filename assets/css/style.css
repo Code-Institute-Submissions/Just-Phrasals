@@ -55,7 +55,7 @@
 }
 
 .explainer-container {
-    background-color: rgb(96 144 205);
+    background-color: rgb(96, 144, 205);
 }
 
 .explainer-sections {
@@ -64,4 +64,40 @@
     border-radius: 5px;
     padding: 0.5rem;
     margin: 1rem;
+}
+
+.choose-exc-container {
+    min-height: 100vh;
+    background: url("../images/course-excercises-bg-image.jpg") no-repeat left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.choose-exc-box {
+    background-color: rgb(51, 50, 120, 0.8);
+    padding: 3rem;
+    margin: 1rem;
+    min-width: 75%;
+    min-height: 90%;
+    max-width: 200px;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+
+.choose-exc-links:hover {
+    text-decoration: none;
+}
+
+.choose-exc-box:hover {
+    background-color: rgba(245, 245, 245, 0.795);
+    color: rgb(51, 50, 120);
 }
