@@ -1,4 +1,11 @@
 
+.block-divider {
+    background-color: whitesmoke;
+    width: 75px;
+    height: 5px;
+    border: 0
+}
+
 /* ....................................Navbar*/
 
 .navbar {
@@ -40,7 +47,7 @@
 
 .callout-slogan {
     color: whitesmoke;
-    text-decoration: bold;
+    font-weight: bold;
     background-color: rgb(51, 50, 120, 0.8);
     padding: 2rem;
     border-radius: 10px;
@@ -48,9 +55,13 @@
 }
 
 .explainer-container {
-    background-color: rgb(51, 50, 120)
+    background-color: rgb(96 144 205);
 }
 
-.explainer-headings {
+.explainer-sections {
     color: whitesmoke;
+    border: whitesmoke 2px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 1rem;
 }
