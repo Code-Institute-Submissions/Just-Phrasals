@@ -215,3 +215,230 @@ function answerSubmitDown() {
 }
 
 
+// ********* VERBS WITH INTO **************
+
+function answerSubmitInto() {
+
+    let storyResult = 0
+
+    // Story Answer One
+
+    let answerStoryOne = document.getElementById("story-one").value
+
+    if (answerStoryOne === "ran into") {
+        document.getElementById("story-one").style.borderColor = "#60de60"
+        document.getElementById("story-one").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-one").style.borderColor = "red"
+        document.getElementById("story-one").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Two
+
+    let answerStoryTwo = document.getElementById("story-two").value
+
+    if (answerStoryTwo === "broken down") {
+        document.getElementById("story-two").style.borderColor = "#60de60"
+        document.getElementById("story-two").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-two").style.borderColor = "red"
+        document.getElementById("story-two").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Three
+
+    let answerStoryThree = document.getElementById("story-three").value
+
+    if (answerStoryThree === "looking into") {
+        document.getElementById("story-three").style.borderColor = "#60de60"
+        document.getElementById("story-three").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-three").style.borderColor = "red"
+        document.getElementById("story-three").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Four
+
+    let answerStoryFour = document.getElementById("story-four").value
+
+    if (answerStoryFour === "look up") {
+        document.getElementById("story-four").style.borderColor = "#60de60"
+        document.getElementById("story-four").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-four").style.borderColor = "red"
+        document.getElementById("story-four").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Five
+
+    let answerStoryFive = document.getElementById("story-five").value
+
+    if (answerStoryFive === "set up") {
+        document.getElementById("story-five").style.borderColor = "#60de60"
+        document.getElementById("story-five").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-five").style.borderColor = "red"
+        document.getElementById("story-five").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Six
+
+    let answerStorySix = document.getElementById("story-six").value
+
+    if (answerStorySix === "closed down") {
+        document.getElementById("story-six").style.borderColor = "#60de60"
+        document.getElementById("story-six").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-six").style.borderColor = "red"
+        document.getElementById("story-six").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Seven
+
+    let answerStorySeven = document.getElementById("story-seven").value
+
+    if (answerStorySeven === "go into") {
+        document.getElementById("story-seven").style.borderColor = "#60de60"
+        document.getElementById("story-seven").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-seven").style.borderColor = "red"
+        document.getElementById("story-seven").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Eight
+
+    let answerStoryEight = document.getElementById("story-eight").value
+
+    if (answerStoryEight === "turn down") {
+        document.getElementById("story-eight").style.borderColor = "#60de60"
+        document.getElementById("story-eight").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-eight").style.borderColor = "red"
+        document.getElementById("story-eight").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Nine
+
+    let answerStoryNine = document.getElementById("story-nine").value
+
+    if (answerStoryNine === "turned into") {
+        document.getElementById("story-nine").style.borderColor = "#60de60"
+        document.getElementById("story-nine").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-nine").style.borderColor = "red"
+        document.getElementById("story-nine").style.backgroundColor = "#ebbdbd"
+    }
+
+    
+    // Story Answer Ten
+
+    let answerStoryTen = document.getElementById("story-ten").value
+
+    if (answerStoryTen === "got into" || answerStoryTen === "gotten into") {
+        document.getElementById("story-ten").style.borderColor = "#60de60"
+        document.getElementById("story-ten").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-ten").style.borderColor = "red"
+        document.getElementById("story-ten").style.backgroundColor = "#ebbdbd"
+    }
+
+    
+    // Story Answer Eleven
+
+    let answerStoryEleven = document.getElementById("story-eleven").value
+
+    if (answerStoryEleven === "taken up") {
+        document.getElementById("story-eleven").style.borderColor = "#60de60"
+        document.getElementById("story-eleven").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-eleven").style.borderColor = "red"
+        document.getElementById("story-eleven").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Twelve
+
+    let answerStoryTwelve= document.getElementById("story-twelve").value
+
+    if (answerStoryTwelve === "give up") {
+        document.getElementById("story-twelve").style.borderColor = "#60de60"
+        document.getElementById("story-twelve").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-twelve").style.borderColor = "red"
+        document.getElementById("story-twelve").style.backgroundColor = "#ebbdbd"
+    }
+
+
+     // Story Answer Thirteen
+
+    let answerStoryThirteen = document.getElementById("story-thirteen").value
+
+    if (answerStoryThirteen === "broken into") {
+        document.getElementById("story-thirteen").style.borderColor = "#60de60"
+        document.getElementById("story-thirteen").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-thirteen").style.borderColor = "red"
+        document.getElementById("story-thirteen").style.backgroundColor = "#ebbdbd"
+    }
+
+    // Story Answer Fourteen
+
+    let answerStoryFourteen = document.getElementById("story-fourteen").value
+
+    if (answerStoryFourteen === "wrote down") {
+        document.getElementById("story-fourteen").style.borderColor = "#60de60"
+        document.getElementById("story-fourteen").style.backgroundColor = "#bcf9bc"
+        storyResult++
+        console.log(storyResult)
+    }
+    else { 
+        document.getElementById("story-fourteen").style.borderColor = "red"
+        document.getElementById("story-fourteen").style.backgroundColor = "#ebbdbd"
+    }
+
+    let marksStory = document.getElementById("marksStory")
+    console.log(storyResult)
+
+    marksStory.innerHTML = "You scored " + storyResult
+
+    marksStory.style.opacity = 1 
+}
+
