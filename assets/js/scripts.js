@@ -442,3 +442,27 @@ function answerSubmitInto() {
     marksStory.style.opacity = 1 
 }
 
+// ********* VERBS WITH OUT **************
+
+function playAudioExcercise() {
+
+    excerciseAudio = document.querySelectorAll("audio")
+
+    excerciseAudio[0].play()
+}
+
+function pauseAudioExcercise() {
+
+    excerciseAudio = document.querySelectorAll("audio")
+
+    excerciseAudio[0].pause()
+    
+}
+
+function stopAudioExcercise() {
+
+    excerciseAudio = document.querySelectorAll("audio")
+
+    excerciseAudio[0].pause()
+    excerciseAudio[0].currentTime = 0
+}
