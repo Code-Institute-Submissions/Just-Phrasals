@@ -150,6 +150,14 @@ body {
     transition: 1s;
 }
 
+.input-down {
+    min-width: 300px;
+    max-height: 25px;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 6px;
+}
+
 .example-box {
     display: none;
     background-color: whitesmoke;

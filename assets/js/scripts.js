@@ -100,3 +100,4 @@ function answerSubmitUp() {
     }
     else {console.log(upScore)}
 }
+
