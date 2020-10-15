@@ -134,6 +134,7 @@ body {
     background-color: rgb(96 144 205 / 36%);
     min-height: 300px;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
     box-shadow: 2px 4px rgb(90 90 92 / 54%);
     padding: 1rem;
@@ -158,7 +159,13 @@ body {
     box-shadow: 2px 4px rgb(90 90 92 / 54%);
 }
 
-.result {
-    max-height: 25px;
-    max-width: 25px;
+
+.fa-check-circle {
+    color: #bcf9bc;
+    font-size: 1.5rem;
+}
+
+.fa-times-circle {
+    color: #e06464;
+    font-size: 1.5rem;
 }
