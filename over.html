@@ -116,14 +116,17 @@
                 <div class="col-12 col-md-6">
                     <div class="excercise-container">
                         <div class="quiz-container">
-                            <div class="quiz-sentence text-center" id="quiz-question">
+                            <div class="quiz-text text-center" id="quiz-question">
                                 <p>Here is an example ...... placeholder sentence</p>
                             </div>
                             <div class="button-choices justify-content-center">
                                 <button class="btn quiz-buttons d-block" id="option-one" onclick="optionOneClicked()">Option 1</button>
                                 <button class="btn quiz-buttons d-block" id="option-two" onclick="optionTwoClicked()">Option 2</button>
                                 <button class="btn quiz-buttons d-block" id="option-three" onclick="optionThreeClicked()">Option 3</button>
-                                <button onclick="nextQuestion()">Next</button>
+                                <p class="quiz-text">Your on <span id="question-number"></span> of 16 <span id="quiz-tick"></span></p>
+                                <div class="row justify-content-center">
+                                <button onclick="nextQuestion()">Next</button>                     
+                                </div>
                             </div>
                         </div>
                     </div>

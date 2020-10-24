@@ -168,6 +168,8 @@ let quizQuestion = document.getElementById("quiz-question")
 let optionOne = document.getElementById("option-one")
 let optionTwo = document.getElementById("option-two")
 let optionThree = document.getElementById("option-three")
+let questionNumber = document.getElementById("question-number")
+let quizTick = document.getElementById("quiz-tick")
 
 let index = 0
 
@@ -176,12 +178,14 @@ window.addEventListener("DOMContentLoaded", function(){
     optionOne.innerHTML = quizQuestions[index].answers[0].text
     optionTwo.innerHTML = quizQuestions[index].answers[1].text
     optionThree.innerHTML = quizQuestions[index].answers[2].text
+    questionNumber.innerHTML = 1
 });
 
 
 function optionOneClicked() {
     if (quizQuestions[index].answers[0].correct == true) {
         optionOne.classList.add("correctButton")
+        quizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Well Done! Next</span>`
     } else {
         optionOne.classList.add("wrongButton")
     }
@@ -191,6 +195,7 @@ function optionOneClicked() {
 function optionTwoClicked() {
     if (quizQuestions[index].answers[1].correct == true) {
         optionTwo.classList.add("correctButton")
+        quizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Well Done! Next</span>`
     } else {
         optionTwo.classList.add("wrongButton")
     }
@@ -200,13 +205,14 @@ function optionTwoClicked() {
 function optionThreeClicked() {
     if (quizQuestions[index].answers[2].correct == true) {
         optionThree.classList.add("correctButton")
+        quizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Well Done! Next</span>`
     } else {
         optionThree.classList.add("wrongButton")
     }
 }
 
 
-function  incrementIndex() {console.log(index)}
+function  incrementIndex() {questionNumber.innerHTML = index + 1}
 
 
 function nextQuestion() {
@@ -220,6 +226,7 @@ function nextQuestion() {
     optionTwo.classList.remove("wrongButton")
     optionThree.classList.remove("correctButton")
     optionThree.classList.remove("wrongButton")
+    quizTick.innerHTML = ""
 
     if (index === quizQuestions.length) {
         quizQuestion.innerHTML = quizQuestions[0].question
