@@ -178,29 +178,30 @@ window.addEventListener("DOMContentLoaded", function(){
     optionThree.innerHTML = quizQuestions[index].answers[2].text
 });
 
+
 function optionOneClicked() {
     if (quizQuestions[index].answers[0].correct == true) {
-        console.log("correct")
+        optionOne.classList.add("correctButton")
     } else {
-        console.log("wrong")
+        optionOne.classList.add("wrongButton")
     }
 
 }
 
 function optionTwoClicked() {
     if (quizQuestions[index].answers[1].correct == true) {
-        console.log("correct")
+        optionTwo.classList.add("correctButton")
     } else {
-        console.log("wrong")
+        optionTwo.classList.add("wrongButton")
     }
 }
 
 
 function optionThreeClicked() {
     if (quizQuestions[index].answers[2].correct == true) {
-        console.log("correct")
+        optionThree.classList.add("correctButton")
     } else {
-        console.log("wrong")
+        optionThree.classList.add("wrongButton")
     }
 }
 
@@ -212,6 +213,13 @@ function nextQuestion() {
     index ++;
 
     incrementIndex()
+
+    optionOne.classList.remove("correctButton")
+    optionOne.classList.remove("wrongButton")
+    optionTwo.classList.remove("correctButton")
+    optionTwo.classList.remove("wrongButton")
+    optionThree.classList.remove("correctButton")
+    optionThree.classList.remove("wrongButton")
 
     if (index === quizQuestions.length) {
         quizQuestion.innerHTML = quizQuestions[0].question

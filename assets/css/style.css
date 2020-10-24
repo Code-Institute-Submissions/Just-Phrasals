@@ -193,7 +193,7 @@ body {
 }
 
 .fa-play-circle {
-    color:#4bbd4b
+    color:#c5c5c5
 }
 
 .fa-play-circle:hover {
@@ -240,6 +240,15 @@ body {
     margin-top:10px;
 }
 
-.quiz-buttons:hover {
-    background-color: rgb(96, 144, 205);
+.correctButton {
+    background-color: rgb(4, 173, 4);
 }
+
+.wrongButton {
+    background-color: rgb(250, 76, 76)
+}
+
+.quiz-buttons:hover {
+    border-color: #fce45e;
+}
+
