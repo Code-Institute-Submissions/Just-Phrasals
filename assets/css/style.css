@@ -216,3 +216,22 @@ body {
     color: #e66363
 }
 
+.quiz-container {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.quiz-sentence {
+    padding: 5px;
+}
+
+.quiz-buttons {
+    background-color:teal;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 100%;
+    margin: 5px 0px;
+    box-sizing: border-box;
+}
