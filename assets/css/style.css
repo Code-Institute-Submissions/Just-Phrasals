@@ -220,18 +220,26 @@ body {
     background-color: whitesmoke;
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 2px 4px rgb(90 90 92 / 54%);
 }
 
 .quiz-sentence {
     padding: 5px;
+    font-weight: 500;
+    border: solid 2px rgb(96, 115, 165);
+    border-radius: 5px;
+    margin: 10px 2px;
 }
 
 .quiz-buttons {
-    background-color:teal;
+    color: whitesmoke;
+    background-color: rgb(96, 115, 165);
     text-align: center;
-    border: 2px solid black;
-    margin: 0 auto;
+    box-shadow: 1.5px 3px rgb(51, 50, 120);   
     width: 100%;
-    margin: 5px 0px;
-    box-sizing: border-box;
+    margin-top:10px;
+}
+
+.quiz-buttons:hover {
+    background-color: rgb(96, 144, 205);
 }

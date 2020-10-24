@@ -4,7 +4,7 @@ const quizQuestions = [
     
     // Question 1 
     {
-        question: "The report has some errors. We need to:",
+        question: "The report has some errors. We need to .... a few more times to find them all.",
         answers: [
             { text: "look over it", correct: true },
             { text: "get over it", correct: false },
