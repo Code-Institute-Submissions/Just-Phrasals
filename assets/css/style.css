@@ -10,6 +10,26 @@ body {
     border: 0
 }
 
+.buttons {
+    border-radius: 2rem;
+    color: white;
+    box-sizing: border-box;
+}
+
+.buttons:hover {
+    border: solid 2px #ffe507;
+}
+
+.green-buttons {
+    background-color: rgb(4, 173, 4);
+    border: solid 2px rgb(4, 173, 4);
+}
+
+.check-answer-buttons {
+    background-color: rgb(51, 50, 120);
+    border: solid 2px  rgb(51, 50, 120);
+}
+
 /* ....................................Navbar*/
 
 .navbar {
@@ -194,7 +214,7 @@ body {
 }
 
 .fa-play-circle {
-    color:#c5c5c5
+    color:#2fd12f
 }
 
 .fa-play-circle:hover {

@@ -32,7 +32,7 @@
                     </div>
                 </li>
             </ul>
-            <button class="btn btn-success my-2">Sign Up for Full Course</button>
+            <button class="btn buttons green-buttons my-2">Sign Up for Full Course</button>
         </div>
     </nav>
 
@@ -145,28 +145,33 @@
                     </div>
                  </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="excercise-container col-12 col-md-10 col-lg-8">
+           <div class="row justify-content-center">
+                <div class="excercise-container col-12 col-md-10 col-lg-9">
+                    <p class="text-muted">You have the answer to a question <u>underlined</u>. 
+                    You must write the correct question form:
+                    </p>
                     <p>A: He gave up cigarettes <u>last year.</u>
                         Q: <input type="text" class="input-down" value="When did he give up cigarettes?"></p>
                     <p>A1 <strong><u>John</u></strong> will write down the main points of the meeting.</p>
-                    <p>Q1 <input type="text" class="input-down" id="down-one"><img class="result" id="tick-down-one"></p>
+                    <p>Q1 <input type="text" class="input-down" id="down-one"><span id="tick-down-one"></span></p>
                     <p>A2 The school closed down <u>two months ago</u></p>
-                    <p>Q2 <input type="text" class="input-down" id="down-two"><img class="result" id="tick-down-two"></p>
+                    <p>Q2 <input type="text" class="input-down" id="down-two"><span id="tick-down-two"></span></p>
                     <p>A3 Lisa turned down their job offer <u>because she recieved a better one</u>.</p>
-                    <p>Q3 <input type="text" class="input-down" id="down-three"><img class="result" id="tick-down-three"></p>
+                    <p>Q3 <input type="text" class="input-down" id="down-three"><span id="tick-down-three"></span></p>
                     <p>A4 My car has broken down <u>six times</u> this year.</p>
-                    <p>Q4 <input type="text" class="input-down" id="down-four"><img class="result" id="tick-down-four"></p>
+                    <p>Q4 <input type="text" class="input-down" id="down-four"><span id="tick-down-four"></span></p>
                     <p>A5 Oil prices went down <u>12%</u> last week</p>
-                    <p>Q5 <input type="text" class="input-down" id="down-five"><img class="result" id="tick-down-five"></p>
+                    <p>Q5 <input type="text" class="input-down" id="down-five"><span id="tick-down-five"></span></p>
                     <p>A6 Paul has cut down on <u>coffee, alcohol and chocolate.</u></p>
-                    <p>Q6 <input type="text" class="input-down" id="down-six"><img class="result" id="tick-down-six"></p>
-                </div>
+                    <p>Q6 <input type="text" class="input-down" id="down-six"><span id="tick-down-six"></span></p>
+                    
+                    <div id="marksDown"></div>
+                    <button class="btn btn-sm buttons check-answer-buttons" onclick="answerSubmitDown()">Check Answers</button>
+                    <a href="over.html" target="_blank"><button class="btn btn-sm buttons green-buttons">Next excercise</button></a>
+                    
+                 </div>
             </div>
         </div>
-        <div id="marksOut"></div>
-        <button id="storyButton" onclick="answerSubmitInto()">Check Answers</button>
-        <a href="over.html" target="_blank"><button>Next excercise</button></a>
     </section>
 
     <audio id="audioExercise">
