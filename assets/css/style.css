@@ -128,9 +128,79 @@ body {
 
 
 .headings {
-    border: 5px solid rgb(51, 50, 120);
-    padding: 10px;
-    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgb(51, 50, 120, 0.8);
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.8);
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.up-heading-container {
+    height: 60vh;
+    background: url("../images/up-header-image.jpg") no-repeat top; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.down-heading-container {
+    height: 60vh;
+    background: url("../images/down-header-image.jpg") no-repeat top; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.into-heading-container {
+    height: 60vh;
+    background: url("../images/into-header-image.jpg") no-repeat top; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.out-heading-container {
+    height: 60vh;
+    background: url("../images/out-header-image.jpg") no-repeat top; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.over-heading-container {
+    height: 60vh;
+    background: url("../images/over-header-image.jpg") no-repeat top; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .verb-box {
