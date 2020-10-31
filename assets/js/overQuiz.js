@@ -4,11 +4,11 @@ const quizQuestions = [
     
     // Question 1 
     {
-        question: "The report has some errors. We need to .... a few more times to find them all.",
+        question: "After the doctor gave him the anesthetic, he .... in 10 seconds.",
         answers: [
-            { text: "look over it", correct: true },
-            { text: "get over it", correct: false },
-            { text: "go into it", correct: false },
+            { text: "passed out", correct: true },
+            { text: "set up", correct: false },
+            { text: "turned down", correct: false },
         ],
     },
 
@@ -24,11 +24,11 @@ const quizQuestions = [
 
     // Question 3
     {
-        question: "When the boss resigns, a new director will ..... his role:",
+        question: "The boss is ..... copies of the new company guidelines.",
         answers: [
-            { text: "close down", correct: false },
-            { text: "show up", correct: false },
-            { text: "take over", correct: true },
+            { text: "closing down", correct: false },
+            { text: "showing up", correct: false },
+            { text: "giving out", correct: true },
         ],
     },
 
@@ -44,7 +44,7 @@ const quizQuestions = [
 
     // Question 5
     {
-        question: "John has an terrible cough from smoking. What should he do?",
+        question: "John has a terrible cough from smoking. What should he do about smoking?",
         answers: [
             { text: "give up", correct: true },
             { text: "work out", correct: false },
@@ -64,17 +64,17 @@ const quizQuestions = [
 
     // Question 7
     {
-        question: "The class will soon ...... and you can go home.",
+        question: "The police are ..... the murder.",
         answers: [
-            { text: "close down", correct: false },
-            { text: "be over", correct: true },
-            { text: "work out", correct: false },
+            { text: "setting up", correct: false },
+            { text: "looking into", correct: true },
+            { text: "turning into", correct: false },
         ],
     },
 
     // Question 8
     {
-        question: "That pretty girl will give you phone number. What are you going to do?",
+        question: "That pretty girl will give you her phone number. What are you going to do?",
         answers: [
             { text: "turn it down", correct: false },
             { text: "look it over", correct: false },
@@ -94,17 +94,17 @@ const quizQuestions = [
 
     // Question 10
     {
-        question: "Tensions between South Korea and North Korea could ..... into war.",
+        question: "What do people do at the gym?",
         answers: [
-            { text: "close down", correct: false },
-            { text: "run out", correct: false },
-            { text: "boil over", correct: true},
+            { text: "break into", correct: false },
+            { text: "grow up", correct: false },
+            { text: "work out", correct: true},
         ],
     },
 
     // Question 11
     {
-        question: "Rita is drinking too much coffee these day. What does she need to do?",
+        question: "Rita is drinking too much coffee these days. What does she need to do?",
         answers: [
             { text: "cut down", correct: true },
             { text: "pass out", correct: false },
@@ -124,7 +124,7 @@ const quizQuestions = [
 
     // Question 13
     {
-        question: "Anita's restaurant business is failing miserably. What should she do to?",
+        question: "Anita's restaurant business is failing miserably. What should she do?",
         answers: [
             { text: "turn it down", correct: false },
             { text: "break into it", correct: false },
@@ -134,11 +134,11 @@ const quizQuestions = [
 
     // Question 14
     {
-        question: "The president will .... power to the vice-president if he becomes incapacitated.",
+        question: "My computer .... because the hard drive was damaged.",
         answers: [
-            { text: "hand over", correct: true },
-            { text: "pass out", correct: false },
-            { text: "look into", correct: false},
+            { text: "broke down", correct: true },
+            { text: "gave up", correct: false },
+            { text: "passed out", correct: false},
         ],
     },
 
