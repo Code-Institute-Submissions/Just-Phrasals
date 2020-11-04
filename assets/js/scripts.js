@@ -113,7 +113,7 @@ function answerSubmitDown() {
     let answerDownOne = document.getElementById("down-one").value
     let tickDownOne = document.getElementById("tick-down-one")
 
-    if (answerDownOne === "Who will write down the main points of the meeting?") {
+    if (answerDownOne === "write down" || answerDownOne === "Write down") {
         tickDownOne.innerHTML = `<i class="fas fa-check-circle"></i>`;
         downScore++
         console.log(downScore)
@@ -126,7 +126,7 @@ function answerSubmitDown() {
     let answerDownTwo = document.getElementById("down-two").value
     let tickDownTwo = document.getElementById("tick-down-two")
 
-    if (answerDownTwo === "When did the school close down?") {
+    if (answerDownTwo === "close down" || answerDownTwo === "Close down") {
         tickDownTwo.innerHTML = `<i class="fas fa-check-circle"></i>`;
         downScore++
         console.log(downScore)
@@ -139,8 +139,7 @@ function answerSubmitDown() {
     let answerDownThree = document.getElementById("down-three").value
     let tickDownThree = document.getElementById("tick-down-three")
 
-    if (answerDownThree === "Why did Lisa turn down their job offer?" ||
-        answerDownThree === "Why did Lisa turn down the job offer?") 
+    if (answerDownThree === "turned down" || answerDownThree === "Turned down") 
         {
         tickDownThree.innerHTML = `<i class="fas fa-check-circle"></i>`;
         downScore++
@@ -154,10 +153,7 @@ function answerSubmitDown() {
     let answerDownFour = document.getElementById("down-four").value
     let tickDownFour = document.getElementById("tick-down-four")
 
-    if (answerDownFour === "How many times has your car broken down this year?" ||
-        answerDownFour === "How often has your car broken down this year?" ||
-        answerDownFour === "How many time has my car broken down this year?" ||
-        answerDownFour === "How often has my car broken down this year?")
+    if (answerDownFour === "broke down" || answerDownFour === "Broke down")
         {
         tickDownFour.innerHTML = `<i class="fas fa-check-circle"></i>`;
         downScore++
@@ -171,8 +167,7 @@ function answerSubmitDown() {
     let answerDownFive = document.getElementById("down-five").value
     let tickDownFive = document.getElementById("tick-down-five")
 
-    if (answerDownFive === "How much did oil prices go down last week?" ||
-        answerDownFive === "What percentage did oil prices go down last week?") {
+    if (answerDownFive === "went down" || answerDownFive === "Went down") {
         tickDownFive.innerHTML = `<i class="fas fa-check-circle"></i>`;
         downScore++
         console.log(downScore)
@@ -185,8 +180,7 @@ function answerSubmitDown() {
     let answerDownSix = document.getElementById("down-six").value
     let tickDownSix = document.getElementById("tick-down-six")
 
-    if (answerDownSix === "What has Paul cut down on?" ||
-        answerDownSix === "What has Paul cut down on?") 
+    if (answerDownSix === "cut down" || answerDownSix === "Cut down") 
         {
         tickDownSix.innerHTML = `<i class="fas fa-check-circle"></i>`;
         downScore++
