@@ -4,7 +4,7 @@ const overQuizQuestions = [
     
     // Question 1 
     {
-        question: "Why did Frank arrive late and miss the meeting?",
+        question: "Why did Frank show up late and miss the meeting?",
         answers: [
             { text: "He ran into a friend", correct: true },
             { text: "He got into fight", correct: false },
@@ -24,7 +24,7 @@ const overQuizQuestions = [
 
     // Question 3
     {
-        question: "Why did negotiations break down?",
+        question: "Why did negotiations break down in the meeting?",
         answers: [
             { text: "Because of an argument", correct: true },
             { text: "Because Frank arrived late", correct: false },
@@ -44,7 +44,7 @@ const overQuizQuestions = [
 
     // Question 5
     {
-        question: "Why did Linda find out about the president?",
+        question: "What did Linda find out about the president?",
         answers: [
             { text: "He's sick", correct: false },
             { text: "He's suffering from stress", correct: true },
@@ -81,6 +81,8 @@ let overOptionTwo = document.getElementById("over-option-two")
 let overOptionThree = document.getElementById("over-option-three")
 let overQuestionNumber = document.getElementById("over-question-number")
 let overQuizTick = document.getElementById("over-quiz-tick")
+let lastAnswer = document.getElementById("last-answer")
+let nextButton = document.getElementById("next-button")
 
 let index = 0
 
@@ -143,4 +145,10 @@ function question() {
     overOptionOne.innerHTML = overQuizQuestions[index].answers[0].text
     overOptionTwo.innerHTML = overQuizQuestions[index].answers[1].text
     overOptionThree.innerHTML = overQuizQuestions[index].answers[2].text
+
+    if (index === overQuizQuestions.length -1 ) {
+        lastAnswer.innerHTML = `<a href="signup.html" target="_blank"><button class="btn btn-sm buttons green-buttons">Move onto Next Excercise</button></a>`
+        nextButton.innerHTML = ""
+        
+    }
 }

@@ -172,7 +172,7 @@
                     <div class="excercise-container">
                         <div class="instructions">
                             <p>
-                            Click the right verb that matches the sentence and then move onto the next one. 
+                            Choose the answer to the question based on the audio dialogue and then move onto the next. 
                             </p>
                         </div>
                         <div class="quiz-container">
@@ -185,6 +185,9 @@
                                 <button class="btn quiz-buttons d-block" id="over-option-three" onclick="overOptionThreeClicked()">Option 3</button>
                                 <p class="quiz-text">Your on <span id="over-question-number"></span> of 7 <span id="over-quiz-tick"></span></p>
                                 <div class="row justify-content-center">
+                                <span id="last-answer"></span> 
+                                </div>
+                                <div class="row justify-content-center" id="next-button">
                                 <button class="btn btn-sm buttons green-buttons" onclick="question()">Next One</button>                     
                                 </div>
                             </div>
