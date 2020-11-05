@@ -122,14 +122,15 @@ function overOptionThreeClicked() {
 }
 
 
-function  incrementIndex() {questionNumber.innerHTML = index + 1}
+function  incrementIndex() {overQuestionNumber.innerHTML = index + 1}
 
 
-function nextQuestion() {
-    index ++;
+function question() {
+    index ++
+    console.log(index)
 
     incrementIndex()
-
+    
     overOptionOne.classList.remove("correctButton")
     overOptionOne.classList.remove("wrongButton")
     overOptionTwo.classList.remove("correctButton")
@@ -138,15 +139,8 @@ function nextQuestion() {
     overOptionThree.classList.remove("wrongButton")
     overQuizTick.innerHTML = ""
 
-    if (index === overQuizQuestions.length) {
-        overQuizQuestion.innerHTML = quizQuestions[0].question
-        overOptionOne.innerHTML = quizQuestions[0].answers[0].text
-        overOptionTwo.innerHTML = quizQuestions[0].answers[1].text
-        overOptionThree.innerHTML = quizQuestions[0].answers[2].text
-    } else {
-        overQuizQuestion.innerHTML = quizQuestions[index].question
-        overOptionOne.innerHTML = quizQuestions[index].answers[0].text
-        overOptionTwo.innerHTML = quizQuestions[index].answers[1].text
-        overOptionThree.innerHTML = quizQuestions[index].answers[2].text
-    }
+    overQuizQuestion.innerHTML = overQuizQuestions[index].question
+    overOptionOne.innerHTML = overQuizQuestions[index].answers[0].text
+    overOptionTwo.innerHTML = overQuizQuestions[index].answers[1].text
+    overOptionThree.innerHTML = overQuizQuestions[index].answers[2].text
 }
