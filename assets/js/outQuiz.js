@@ -114,10 +114,10 @@ const quizQuestions = [
 
     // Question 12
     {
-        question: "Traders will be happier when the markets .... the finacial crisis.",
+        question: "I'm going to .... a new hobbie in the new year.",
         answers: [
             { text: "run out of", correct: false },
-            { text: "get over", correct: true },
+            { text: "take up", correct: true },
             { text: "break down", correct: false },
         ],
     },
@@ -170,6 +170,8 @@ let optionTwo = document.getElementById("option-two")
 let optionThree = document.getElementById("option-three")
 let questionNumber = document.getElementById("question-number")
 let quizTick = document.getElementById("quiz-tick")
+let lastAnswer = document.getElementById("last-answer")
+let nextButton = document.getElementById("next-button")
 
 let index = 0
 
@@ -228,11 +230,9 @@ function nextQuestion() {
     optionThree.classList.remove("wrongButton")
     quizTick.innerHTML = ""
 
-    if (index === quizQuestions.length) {
-        quizQuestion.innerHTML = quizQuestions[0].question
-        optionOne.innerHTML = quizQuestions[0].answers[0].text
-        optionTwo.innerHTML = quizQuestions[0].answers[1].text
-        optionThree.innerHTML = quizQuestions[0].answers[2].text
+    if (index === quizQuestions.length -1 ) {
+        lastAnswer.innerHTML = `<a href="over.html" target="_blank"><button class="btn btn-sm buttons green-buttons">Move onto Next Excercise</button></a>`
+        nextButton.innerHTML = ""
     } else {
         quizQuestion.innerHTML = quizQuestions[index].question
         optionOne.innerHTML = quizQuestions[index].answers[0].text
