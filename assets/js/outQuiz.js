@@ -230,17 +230,14 @@ function nextQuestion() {
     optionThree.classList.remove("wrongButton")
     quizTick.innerHTML = ""
 
+    quizQuestion.innerHTML = quizQuestions[index].question
+    optionOne.innerHTML = quizQuestions[index].answers[0].text
+    optionTwo.innerHTML = quizQuestions[index].answers[1].text
+    optionThree.innerHTML = quizQuestions[index].answers[2].text
+
     if (index === quizQuestions.length -1 ) {
         lastAnswer.innerHTML = `<a href="over.html" target="_blank"><button class="btn btn-sm buttons green-buttons">Move onto Next Excercise</button></a>`
         nextButton.innerHTML = ""
-        quizQuestion.innerHTML = quizQuestions[15].question
-        optionOne.innerHTML = quizQuestions[15].answers[0].text
-        optionTwo.innerHTML = quizQuestions[15].answers[1].text
-        optionThree.innerHTML = quizQuestions[15].answers[2].text
-    } else {
-        quizQuestion.innerHTML = quizQuestions[index].question
-        optionOne.innerHTML = quizQuestions[index].answers[0].text
-        optionTwo.innerHTML = quizQuestions[index].answers[1].text
-        optionThree.innerHTML = quizQuestions[index].answers[2].text
+        
     }
 }
