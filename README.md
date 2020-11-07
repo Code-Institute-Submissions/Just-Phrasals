@@ -25,3 +25,47 @@ to be a “bite-size”, “free sample course”, after which the users are pro
 (itself a phrasal verb) for the full course for a reasonable fee. (Design of the full course was 
 beyond the scope of this project, but the elements and process to sign up for said course have 
 been included to demonstrate functionality of that process).
+
+
+## <strong>UX</strong>
+----
+
+### <strong><u>User Stories</u></strong>
+
+<em>After extensive evaluation of the profiles of English language learners in our modern digital world, 
+the website was created for the the following user profiles:</em>
+
+- #### Intermediate/Advanced English-language learners
+
+As phrasal verbs are generally considered elements beyond the level of beginners, the website has been designed 
+for intermediate and advanced English learners who already have a decent grasp of the language. With this in mind, 
+the developer has tailored the level of language, verbs and exercises in the website for these intermediate/advanced learners.
+Although that is by no means to say that high-level beginners cannot learn phrasal verbs and there are plenty of 
+useful, basic phrasal verbs that a beginner can “pick up”. The developer of this project has considered that later versions 
+of this free Just Phrasals course could be broken into six separate sections for Beginner (1 & 2), Intermediate (1 & 2), and 
+Advanced (1 & 2), where users work their way up through the levels like a video game. This would provide for a more complete 
+and lengthy experience before users eventually commit to signing up for the full paid course(s). However, that is beyond 
+the scope of this current project, which currently includes one intermediate-level “bite-size”, “free-sample” course, 
+broken into five exercises to complete (more on that in the XXX section). 
+
+- #### Adult learners of English 
+
+The Just Phrasals website is mainly aimed at adults and older students (from around 18 upwards) is that is reflected in the design, 
+styling, tone and content language used, images used, exercise content and overall nature of the site. 
+
+- #### Learners from around the globe
+
+With English being the lingua franca for the world of business, travel, politics, (not to mention TV series and films), 
+the global market of adult English language learners around the world is huge -- from European countries like Spain, Italy 
+and France, to Latin America, Middle East and Asia, as well as expats living in English-speaking countries like the US, the UK, 
+Ireland and Australia. For many, learning English is essential for their job or social life, and the Just Phrasals website is 
+designed to help them with a very particular aspect of the language that many struggle with. And in that sense, as a standalone, 
+dynamic, interactive phrasal verb-focused website, it is a first of its kind.  
+
+The website is designed to be generally accessible for all English language learners around the globe no matter what their native tongue is. 
+The developer, though, is acutely aware of the fact that the website could be made more appealing and accessible if it had different versions 
+focused on learners from different regions. It was beyond the scope of this project, but later versions of the website (both the free course(s) 
+and eventual paid full course(s)) could include a dropdown menu where users could choose their native language. From there parts of exercises, 
+explanations, definitions,  etc. could be included in their chosen native language,  for example Spanish, French, Mandarin, etc. depending on 
+their native language chosen.
+
