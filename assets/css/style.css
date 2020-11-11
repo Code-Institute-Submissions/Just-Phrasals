@@ -275,7 +275,7 @@ body {
 }
 
 .input {
-    max-width: 6rem;
+    max-width: 6.5rem;
     max-height: 25px;
     background-color: whitesmoke;
     border-color: whitesmoke;
@@ -284,13 +284,6 @@ body {
     transition: 1s;
 }
 
-.input-down {
-    min-width: 300px;
-    max-height: 25px;
-    background-color: whitesmoke;
-    border-color: whitesmoke;
-    border-radius: 6px;
-}
 
 .form-item {
     border-radius: 6px;
