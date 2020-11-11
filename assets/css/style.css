@@ -226,6 +226,33 @@ body {
     justify-content: center
 }
 
+.signup-heading-container {
+    height: 60vh;
+    background: url("../images/signup-header-image.jpg") no-repeat top; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.contact-heading-container {
+    height: 60vh;
+    background: url("../images/contact-header-image.jpg") no-repeat top; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+}
+
 .verb-box {
     text-align: center;
     background-color: rgb(96, 115, 165);
