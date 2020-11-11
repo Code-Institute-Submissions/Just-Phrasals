@@ -9,10 +9,9 @@ function answerSubmitUp() {
 
     // Up Answer One Grows Up
 
-    if (answerUpOne === "grows up") {
+    if (answerUpOne === "grows up" || answerUpOne === "Grows up") {
         tickUpOne.innerHTML = `<i class="fas fa-check-circle"></i>`;
         upScore ++;
-        console.log(upScore)
     } else {
         tickUpOne.innerHTML = `<i class="fas fa-times-circle"></i>`
     }
@@ -22,10 +21,9 @@ function answerSubmitUp() {
     let answerUpTwo = document.getElementById("up-two").value
     let tickUpTwo = document.getElementById("tick-up-two")
 
-    if (answerUpTwo === "showed up") {
+    if (answerUpTwo === "showed up" || answerUpTwo === "Showed up") {
         tickUpTwo.innerHTML = `<i class="fas fa-check-circle"></i>`;
         upScore ++;
-        console.log(upScore)
     } else {
         tickUpTwo.innerHTML = `<i class="fas fa-times-circle"></i>`
     }
@@ -35,10 +33,9 @@ function answerSubmitUp() {
     let answerUpThree = document.getElementById("up-three").value
     let tickUpThree = document.getElementById("tick-up-three")
 
-    if (answerUpThree === "give up") {
+    if (answerUpThree === "give up" || answerUpThree === "Give up") {
         tickUpThree.innerHTML = `<i class="fas fa-check-circle"></i>`;
         upScore ++;
-        console.log(upScore)
     } else {
         tickUpThree.innerHTML = `<i class="fas fa-times-circle"></i>`
     }
@@ -48,10 +45,9 @@ function answerSubmitUp() {
     let answerUpFour = document.getElementById("up-four").value
     let tickUpFour = document.getElementById("tick-up-four")
 
-    if (answerUpFour === "look up") {
+    if (answerUpFour === "look up" || answerUpFour === "Look up") {
         tickUpFour.innerHTML = `<i class="fas fa-check-circle"></i>`;
         upScore ++;
-        console.log(upScore)
     } else {
         tickUpFour.innerHTML = `<i class="fas fa-times-circle"></i>`
     }
@@ -64,7 +60,6 @@ function answerSubmitUp() {
     if (answerUpFive === "Taking up" || answerUpFive === "taking up") {
         tickUpFive.innerHTML = `<i class="fas fa-check-circle"></i>`;
         upScore ++;
-        console.log(upScore)
     } else {
         tickUpFive.innerHTML = `<i class="fas fa-times-circle"></i>`
     }
@@ -74,10 +69,9 @@ function answerSubmitUp() {
     let answerUpSix = document.getElementById("up-six").value
     let tickUpSix = document.getElementById("tick-up-six")
    
-    if (answerUpSix === "set up") {
+    if (answerUpSix === "set up"|| answerUpSix === "Set up" ) {
         tickUpSix.innerHTML = `<i class="fas fa-check-circle"></i>`;
         upScore ++;
-        console.log(upScore)
     } else {
         tickUpSix.innerHTML = `<i class="fas fa-times-circle"></i>`
     }
@@ -87,7 +81,7 @@ function answerSubmitUp() {
     let marksUp = document.getElementById("marksUp")
     
     if (upScore === 6) {
-        marksUp.innerHTML = "Well done! You scored "+ upScore + " out of 6. On to the next excercise!"
+        marksUp.innerHTML = "Well done! You scored "+ upScore + " out of 6. Click Next excercise!"
     }
     else if (upScore === 5 || upScore === 4) {
         marksUp.innerHTML = "Almost there! You scored "+ upScore + " out of 6. Try again"
@@ -194,7 +188,7 @@ function answerSubmitDown() {
     let marksDown = document.getElementById("marksDown")
     
     if (downScore === 6) {
-        marksDown.innerHTML = "Well done! You scored "+ downScore + " out of 6. On to the next excercise!"
+        marksDown.innerHTML = "Well done! You scored "+ downScore + " out of 6. Click next excercise!"
     }
     else if (downScore === 5 || downScore === 4) {
         marksDown.innerHTML = "Almost there! You scored "+ downScore + " out of 6. Try again"
@@ -219,7 +213,7 @@ function answerSubmitInto() {
 
     let answerStoryOne = document.getElementById("story-one").value
 
-    if (answerStoryOne === "ran into") {
+    if (answerStoryOne === "ran into" || answerStoryOne === "Ran into") {
         document.getElementById("story-one").style.borderColor = "#60de60"
         document.getElementById("story-one").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -234,7 +228,7 @@ function answerSubmitInto() {
 
     let answerStoryTwo = document.getElementById("story-two").value
 
-    if (answerStoryTwo === "broken down") {
+    if (answerStoryTwo === "broken down" || answerStoryTwo === "Broken down") {
         document.getElementById("story-two").style.borderColor = "#60de60"
         document.getElementById("story-two").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -249,7 +243,7 @@ function answerSubmitInto() {
 
     let answerStoryThree = document.getElementById("story-three").value
 
-    if (answerStoryThree === "looking into") {
+    if (answerStoryThree === "looking into" || answerStoryThree === "Looking into") {
         document.getElementById("story-three").style.borderColor = "#60de60"
         document.getElementById("story-three").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -264,7 +258,7 @@ function answerSubmitInto() {
 
     let answerStoryFour = document.getElementById("story-four").value
 
-    if (answerStoryFour === "look up") {
+    if (answerStoryFour === "look up" || answerStoryFour === "Look up") {
         document.getElementById("story-four").style.borderColor = "#60de60"
         document.getElementById("story-four").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -279,7 +273,7 @@ function answerSubmitInto() {
 
     let answerStoryFive = document.getElementById("story-five").value
 
-    if (answerStoryFive === "set up") {
+    if (answerStoryFive === "set up" || answerStoryFive === "Set up") {
         document.getElementById("story-five").style.borderColor = "#60de60"
         document.getElementById("story-five").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -294,7 +288,7 @@ function answerSubmitInto() {
 
     let answerStorySix = document.getElementById("story-six").value
 
-    if (answerStorySix === "closed down") {
+    if (answerStorySix === "closed down" || answerStorySix === "Closed down") {
         document.getElementById("story-six").style.borderColor = "#60de60"
         document.getElementById("story-six").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -309,7 +303,7 @@ function answerSubmitInto() {
 
     let answerStorySeven = document.getElementById("story-seven").value
 
-    if (answerStorySeven === "go into") {
+    if (answerStorySeven === "go into" || answerStorySeven === "Go into") {
         document.getElementById("story-seven").style.borderColor = "#60de60"
         document.getElementById("story-seven").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -324,7 +318,7 @@ function answerSubmitInto() {
 
     let answerStoryEight = document.getElementById("story-eight").value
 
-    if (answerStoryEight === "turn down") {
+    if (answerStoryEight === "turn down" || answerStoryEight === "Turn down") {
         document.getElementById("story-eight").style.borderColor = "#60de60"
         document.getElementById("story-eight").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -339,7 +333,7 @@ function answerSubmitInto() {
 
     let answerStoryNine = document.getElementById("story-nine").value
 
-    if (answerStoryNine === "turned into") {
+    if (answerStoryNine === "turned into" || answerStoryNine === "Turned into") {
         document.getElementById("story-nine").style.borderColor = "#60de60"
         document.getElementById("story-nine").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -355,7 +349,8 @@ function answerSubmitInto() {
 
     let answerStoryTen = document.getElementById("story-ten").value
 
-    if (answerStoryTen === "got into" || answerStoryTen === "gotten into") {
+    if (answerStoryTen === "got into" || answerStoryTen === "gotten into" || 
+        answerStoryTen === "Got into" || answerStoryTen === "Gotten into") {
         document.getElementById("story-ten").style.borderColor = "#60de60"
         document.getElementById("story-ten").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -371,7 +366,7 @@ function answerSubmitInto() {
 
     let answerStoryEleven = document.getElementById("story-eleven").value
 
-    if (answerStoryEleven === "taken up") {
+    if (answerStoryEleven === "taken up" || answerStoryEleven === "Taken up") {
         document.getElementById("story-eleven").style.borderColor = "#60de60"
         document.getElementById("story-eleven").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -386,7 +381,7 @@ function answerSubmitInto() {
 
     let answerStoryTwelve= document.getElementById("story-twelve").value
 
-    if (answerStoryTwelve === "give up") {
+    if (answerStoryTwelve === "give up" || answerStoryTwelve === "Give up") {
         document.getElementById("story-twelve").style.borderColor = "#60de60"
         document.getElementById("story-twelve").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -402,7 +397,7 @@ function answerSubmitInto() {
 
     let answerStoryThirteen = document.getElementById("story-thirteen").value
 
-    if (answerStoryThirteen === "broken into") {
+    if (answerStoryThirteen === "broken into" || answerStoryThirteen === "Broken into") {
         document.getElementById("story-thirteen").style.borderColor = "#60de60"
         document.getElementById("story-thirteen").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -417,7 +412,7 @@ function answerSubmitInto() {
 
     let answerStoryFourteen = document.getElementById("story-fourteen").value
 
-    if (answerStoryFourteen === "wrote down") {
+    if (answerStoryFourteen === "wrote down" || answerStoryFourteen === "Wrote down") {
         document.getElementById("story-fourteen").style.borderColor = "#60de60"
         document.getElementById("story-fourteen").style.backgroundColor = "#bcf9bc"
         storyResult++
@@ -431,12 +426,17 @@ function answerSubmitInto() {
     let marksStory = document.getElementById("marksStory")
     console.log(storyResult)
 
-    marksStory.innerHTML = "You scored " + storyResult
+    if (storyResult < 14) {
+        marksStory.innerHTML = "You scored " + storyResult + " out of 14. Keep Trying!"
+    }
 
-    marksStory.style.opacity = 1 
+    if (storyResult == 14) {
+        marksStory.innerHTML = "Well done! You scored " + storyResult + " out of 14. Click Next Exercise"
+    }
+ 
 }
 
-// ********* VERBS WITH OUT **************
+// ********* VERBS WITH OVER AUDIO PLAYER **************
 
 function playAudioExcercise() {
 
@@ -460,3 +460,4 @@ function stopAudioExcercise() {
     excerciseAudio[0].pause()
     excerciseAudio[0].currentTime = 0
 }
+
