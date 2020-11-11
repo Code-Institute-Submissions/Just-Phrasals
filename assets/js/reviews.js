@@ -37,7 +37,7 @@ const reviews = [
     // Review 6
 
     {
-       quote: `"10 out of 10. Thanks Just Phrasals!"`,
+       quote: `"10/10. Thanks Just Phrasals!"`,
        person: "Rafa, Sao Paolo"
     },
 
@@ -65,12 +65,18 @@ window.addEventListener("DOMContentLoaded", function(){
 
 function prevButton() {
     index--
+    if (index < 0 ) {
+        index = reviews.length - 1;
+    }
     review.innerHTML = reviews[index].quote
     person.innerHTML = reviews[index].person
 }
 
 function nextButton() {
-    index ++
+    index ++;
+    if (index > reviews.length - 1) {
+        index = 0;
+    }
     review.innerHTML = reviews[index].quote
     person.innerHTML = reviews[index].person
 }

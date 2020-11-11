@@ -30,6 +30,11 @@ body {
     border: solid 2px  rgb(51, 50, 120);
 }
 
+.contact-button {
+    border-radius: 2rem;
+    
+}
+
 /* ....................................Navbar*/
 
 .navbar {
@@ -366,5 +371,9 @@ body {
 
 .quiz-buttons:hover {
     border-color: #fce45e;
+}
+
+.review-quote {
+    font-style: italic;
 }
 
