@@ -339,7 +339,8 @@ body {
 }
 
 .instructions p {
-    background-color: whitesmoke;
+    background-color: rgb(4, 173, 4);
+    color: whitesmoke;
     text-align: center;
     justify-content: center;
     padding: 2px;
