@@ -215,11 +215,11 @@ body {
 }
 
 .fa-pause-circle {
-    color: #fce45e
+    color: #fddd26
 }
 
 .fa-pause-circle:hover {
-    color: #fff09a
+    color: #fff3af
 }
 
 .fa-stop-circle {
@@ -227,7 +227,7 @@ body {
 }
 
 .fa-stop-circle:hover {
-    color: #e66363
+    color: #ff6d6d
 }
 
 /* ............................................................Text Containers & Boxes*/
