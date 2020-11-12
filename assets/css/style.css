@@ -4,15 +4,22 @@ body {
     background-color: rgb(211, 211, 211)
 }
 
-.titles {
-    font-family:'Ramabhadra', sans-serif;
+/* ...........................................................Navbar*/
+
+.navbar {
+    background-color: rgb(51, 50, 120);
 }
 
-.block-divider {
-    background-color: rgb(245, 245, 245);
-    width: 75px;
-    height: 5px;
-    border: 0
+.navbar-brand:hover {
+    color: #ffe507;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: whitesmoke;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ffe507;
 }
 
 .navbar-brand {
@@ -29,54 +36,7 @@ body {
     color: rgb(51, 50, 120);
 }
 
-.buttons {
-    border-radius: 2rem;
-    color: white;
-    box-sizing: border-box;
-}
-
-.buttons:hover {
-    border: solid 2px #ffe507;
-}
-
-.green-buttons {
-    background-color: rgb(4, 173, 4);
-    border: solid 2px rgb(4, 173, 4);
-}
-
-.check-answer-buttons {
-    background-color: rgb(51, 50, 120);
-    border: solid 2px  rgb(51, 50, 120);
-}
-
-.contact-button {
-    border-radius: 2rem;
-    
-}
-
-/* ....................................Navbar*/
-
-.navbar {
-    background-color: rgb(51, 50, 120);
-}
-
-.navbar-brand {
-    color: whitesmoke;
-}
-
-.navbar-brand:hover {
-    color: #ffe507;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    color: whitesmoke;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link:hover {
-    color: #ffe507;
-}
-
-/* ....................................Callout Section*/
+/* ..........................................Headings, Titles, Dividers and Heading Containers*/
 
 .callout-container {
     height: 75vh;
@@ -102,54 +62,6 @@ body {
     border-radius: 10px;
 }
 
-
-.explainer-sections {
-    background-color:  rgb(51, 50, 120, 0.8);
-    box-shadow: 3px 3px 5px 6px rgba(128, 128, 128, 0.8);
-    color: whitesmoke; 
-    border-radius: 1rem;
-    padding: 0.75rem;
-    margin: 1rem;
-}
-
-.choose-exc-container {
-    min-height: 100vh;
-    background: url("../images/course-excercises-bg-image.jpg") no-repeat left fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.choose-exc-box {
-    background-color: rgb(51, 50, 120, 0.8);
-    padding: 3rem;
-    margin: 1rem;
-    min-width: 75%;
-    min-height: 90%;
-    max-width: 200px;
-    color: whitesmoke;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.8);
-}
-
-
-.choose-exc-links:hover {
-    text-decoration: none;
-}
-
-.choose-exc-box:hover {
-    background-color: rgba(245, 245, 245, 0.795);
-    color: rgb(51, 50, 120);
-}
-
-
 .headings {
     font-family:'Ramabhadra', sans-serif;
     color: whitesmoke;
@@ -158,6 +70,17 @@ body {
     padding: 1.5rem;
     border-radius: 15px;
     text-align: center;
+}
+
+.titles {
+    font-family:'Ramabhadra', sans-serif;
+}
+
+.block-divider {
+    background-color: rgb(245, 245, 245);
+    width: 75px;
+    height: 5px;
+    border: 0
 }
 
 .up-heading-container {
@@ -172,7 +95,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 
 .down-heading-container {
     height: 60vh;
@@ -252,98 +174,30 @@ body {
     justify-content: center
 }
 
+/* ............................................................Buttons*/
 
-.verb-box {
-    text-align: center;
-    background-color: rgb(96, 115, 165);
-    color: whitesmoke;
-    font-size: 1rem;
-    margin: 1rem 0.2rem;
-    padding: .5rem;
-    box-shadow: 1.5px 3px rgb(51, 50, 120);
-    border-radius: 4px;
-    width: 100%;
+.buttons {
+    border-radius: 2rem;
+    color: white;
+    box-sizing: border-box;
 }
 
-.verb-box:hover {
-    background-color: whitesmoke;
-    color:  rgb(96, 115, 165);
+.buttons:hover {
+    border: solid 2px #ffe507;
 }
 
-.excercise-container {
-    background-color: #b4c3dc;
-    font-weight: 500;
-    min-height: 300px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px 6px rgba(128, 128, 128, 0.8);
-    padding: 1rem;
+.green-buttons {
+    background-color: rgb(4, 173, 4);
+    border: solid 2px rgb(4, 173, 4);
 }
 
-
-.instructions p {
-    background-color: whitesmoke;
-    text-align: center;
-    justify-content: center;
-    padding: 2px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.8)
+.check-answer-buttons {
+    background-color: rgb(51, 50, 120);
+    border: solid 2px  rgb(51, 50, 120);
 }
 
-.verb-instructions p {
-    background-color: rgb(180, 195, 220);
-    font-weight: 500;
-    text-align: center;
-    justify-content: center;
-    padding: 2px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.8)
-}
-
-.input {
-    max-width: 6.5rem;
-    max-height: 25px;
-    background-color: whitesmoke;
-    border-color: whitesmoke;
-    border-radius: 6px;
-    margin: 1px;
-    transition: 1s;
-}
-
-
-.form-item {
-    border-radius: 6px;
-    min-width: 250px;
-}
-
-.example-box {
-    display: none;
-    background-color: whitesmoke;
-    padding: 5px;
-    border-radius: 6px;
-    margin-top: 0px;
-    box-shadow: 2px 4px rgb(90 90 92 / 54%);
-}
-
-
-.fa-check-circle {
-    color: rgb(4, 173, 4);
-    font-size: 1.5rem;
-}
-
-.fa-times-circle {
-    color: rgb(250, 76, 76);
-    font-size: 1.5rem;
-}
-
-.excercise-steps {
-    background-color: rgb(180, 195, 220);
-    font-weight: 500;
-    margin-top: 2rem;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px 6px rgba(128, 128, 128, 0.8);
-    padding: 1rem;
+.contact-button {
+    border-radius: 2rem;  
 }
 
 .audio-buttons {
@@ -375,6 +229,144 @@ body {
 .fa-stop-circle:hover {
     color: #e66363
 }
+
+/* ............................................................Text Containers & Boxes*/
+
+.explainer-sections {
+    background-color:  rgb(51, 50, 120, 0.8);
+    box-shadow: 3px 3px 5px 6px rgba(128, 128, 128, 0.8);
+    color: whitesmoke; 
+    border-radius: 1rem;
+    padding: 0.75rem;
+    margin: 1rem;
+}
+
+.choose-exc-container {
+    min-height: 100vh;
+    background: url("../images/course-excercises-bg-image.jpg") no-repeat left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.choose-exc-box {
+    background-color: rgb(51, 50, 120, 0.8);
+    padding: 3rem;
+    margin: 1rem;
+    min-width: 75%;
+    min-height: 90%;
+    max-width: 200px;
+    color: whitesmoke;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.8);
+}
+
+.choose-exc-links:hover {
+    text-decoration: none;
+}
+
+.choose-exc-box:hover {
+    background-color: rgba(245, 245, 245, 0.795);
+    color: rgb(51, 50, 120);
+}
+
+/* ............................................................Verb Introduction Sections*/
+
+.verb-box {
+    text-align: center;
+    background-color: rgb(96, 115, 165);
+    color: whitesmoke;
+    font-size: 1rem;
+    margin: 1rem 0.2rem;
+    padding: .5rem;
+    box-shadow: 1.5px 3px rgb(51, 50, 120);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.verb-box:hover {
+    background-color: whitesmoke;
+    color:  rgb(96, 115, 165);
+}
+
+.verb-instructions p {
+    background-color: rgb(180, 195, 220);
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.8)
+}
+
+.example-box {
+    display: none;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 0px;
+    box-shadow: 2px 4px rgb(90 90 92 / 54%);
+}
+
+/* ............................................................Excercise Sections*/
+
+.excercise-container {
+    background-color: #b4c3dc;
+    font-weight: 500;
+    min-height: 300px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 6px rgba(128, 128, 128, 0.8);
+    padding: 1rem;
+}
+
+.excercise-steps {
+    background-color: rgb(180, 195, 220);
+    font-weight: 500;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 6px rgba(128, 128, 128, 0.8);
+    padding: 1rem;
+}
+
+.instructions p {
+    background-color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.8)
+}
+
+.input {
+    max-width: 6.5rem;
+    max-height: 25px;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 6px;
+    margin: 1px;
+    transition: 1s;
+}
+
+.fa-check-circle {
+    color: rgb(4, 173, 4);
+    font-size: 1.5rem;
+}
+
+.fa-times-circle {
+    color: rgb(250, 76, 76);
+    font-size: 1.5rem;
+}
+
+/* .............................................................Quiz Sections*/
 
 .quiz-container {
     background-color: whitesmoke;
@@ -412,7 +404,13 @@ body {
     border-color: #fce45e;
 }
 
+/* .............................................................Sign Up & Contact Forms*/
+
 .review-quote {
     font-style: italic;
 }
 
+.form-item {
+    border-radius: 6px;
+    min-width: 250px;
+}
