@@ -98,7 +98,7 @@ body {
 
 .down-heading-container {
     height: 60vh;
-    background: url("../images/down-header-image.jpg") no-repeat top; 
+    background: url("../images/down-header-image.jpg") no-repeat top left; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -111,7 +111,7 @@ body {
 
 .into-heading-container {
     height: 60vh;
-    background: url("../images/into-header-image.jpg") no-repeat top; 
+    background: url("../images/into-header-image.jpg") no-repeat top right; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -124,7 +124,7 @@ body {
 
 .out-heading-container {
     height: 60vh;
-    background: url("../images/out-header-image.jpg") no-repeat top; 
+    background: url("../images/out-header-image.jpg") no-repeat top right; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
