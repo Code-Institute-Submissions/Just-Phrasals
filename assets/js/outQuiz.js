@@ -187,7 +187,7 @@ window.addEventListener("DOMContentLoaded", function(){
 function optionOneClicked() {
     if (quizQuestions[index].answers[0].correct == true) {
         optionOne.classList.add("correctButton")
-        quizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Well Done! Next</span>`
+        quizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`
     } else {
         optionOne.classList.add("wrongButton")
     }
@@ -197,7 +197,7 @@ function optionOneClicked() {
 function optionTwoClicked() {
     if (quizQuestions[index].answers[1].correct == true) {
         optionTwo.classList.add("correctButton")
-        quizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Well Done! Next</span>`
+        quizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`
     } else {
         optionTwo.classList.add("wrongButton")
     }
@@ -207,7 +207,7 @@ function optionTwoClicked() {
 function optionThreeClicked() {
     if (quizQuestions[index].answers[2].correct == true) {
         optionThree.classList.add("correctButton")
-        quizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Well Done! Next</span>`
+        quizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`
     } else {
         optionThree.classList.add("wrongButton")
     }

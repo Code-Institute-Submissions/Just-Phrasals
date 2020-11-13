@@ -97,7 +97,7 @@ window.addEventListener("DOMContentLoaded", function(){
 function overOptionOneClicked() {
     if (overQuizQuestions[index].answers[0].correct == true) {
         overOptionOne.classList.add("correctButton")
-        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Well Done! Next</span>`
+        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`
     } else {
         overOptionOne.classList.add("wrongButton")
     }
@@ -107,7 +107,7 @@ function overOptionOneClicked() {
 function overOptionTwoClicked() {
     if (overQuizQuestions[index].answers[1].correct == true) {
         overOptionTwo.classList.add("correctButton")
-        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Well Done! Next</span>`
+        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`
     } else {
         overOptionTwo.classList.add("wrongButton")
     }
@@ -117,7 +117,7 @@ function overOptionTwoClicked() {
 function overOptionThreeClicked() {
     if (overQuizQuestions[index].answers[2].correct == true) {
         overOptionThree.classList.add("correctButton")
-        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Well Done! Next</span>`
+        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`
     } else {
         overOptionThree.classList.add("wrongButton")
     }
