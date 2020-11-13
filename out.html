@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    
+    <!-- Navbar-->
+
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="index.html"><span class="brand">Just <em><strong>Phrasals</strong></em></span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +40,19 @@
         </div>
     </nav>
 
-    <section>
-    <div class="container-fluid out-heading-container">
-        <div class="row justify-content-center mt-3">
-            <h1 class="headings">Verbs with Out</h1>
-        </div>
-    </div>
+    <!-- Page Heading Container -->
 
+	<section>
+		<div class="container-fluid out-heading-container">
+			<div class="row justify-content-center mt-3">
+				<h1 class="headings">Verbs with Out</h1>
+			</div>
+		</div>
+	</section>
+
+    <!-- Verbs Section -->
+
+    <section>
         <div class="container mt-3">
             <div class="row justify-content-center">
                 <div class="col-11 col-md-10 col-lg-6 mt-3">
@@ -100,8 +109,8 @@
                 <div class="col-9 col-md-6 col-lg-4 justify-content-center"> 
                     <button class="verb-box" id="verb-five">work out</button>
                     <div class="example-box" id="example-five">
-                    <span class="text-muted"><em> to resolve something (or) to excercise</em></span><br>
                         <p> 
+                            <span class="text-muted"><em> to resolve something (or) to excercise</em></span><br>
                             1. We need to <u>work out</u> this problem quickly.<br>
                             2. Paul and Sam have <u>worked out</u> their differences.<br>
                             3. He <u>works out</u> at the gym every morning.
@@ -111,8 +120,8 @@
                 <div class="col-9 col-md-6 col-lg-4 justify-content-center"> 
                     <button class="verb-box" id="verb-six">pass out</button>
                     <div class="example-box" id="example-six">
-                    <span class="text-muted"><em>to faint</em></span><br>
                         <p> 
+                            <span class="text-muted"><em>to faint</em></span><br>
                             1. He <u>passed out</u> from the pain.<br>
                             2. I'm going to <u>pass out</u> from the heat.<br>
                             3. You could <u>pass out</u> if you don't eat.
@@ -122,40 +131,48 @@
             </div>         
         </div>
     </section>
-     <section>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-6">
-                    <div class="excercise-container">
-                    <div class="instructions">
-                    <p>
-                    Click the right verb that matches the sentence and then move onto the next one. 
-                    </p>
-                    </div>
-                        <div class="quiz-container">
-                            <div class="quiz-text text-center" id="quiz-question">
-                                <p>Here is an example ...... placeholder sentence</p>
-                            </div>
-                            <div class="button-choices justify-content-center">
-                                <button class="btn quiz-buttons d-block" id="option-one" onclick="optionOneClicked()">Option 1</button>
-                                <button class="btn quiz-buttons d-block" id="option-two" onclick="optionTwoClicked()">Option 2</button>
-                                <button class="btn quiz-buttons d-block" id="option-three" onclick="optionThreeClicked()">Option 3</button>
+
+    <!-- Exercise Quiz Section -->
+
+	<section>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-6">
+					<div class="excercise-container">
+						<div class="instructions">
+							<p>
+								Click the right verb that matches the sentence and then move onto the next one.
+							</p>
+						</div>
+						<div class="quiz-container">
+                            <!-- Quiz Question -->
+							<div class="quiz-text text-center" id="quiz-question">
+								<p>Here is an example ...... placeholder sentence</p>
+							</div>
+                            <!-- Quiz Answer Options -->
+							<div class="button-choices justify-content-center">
+								<button class="btn quiz-buttons d-block" id="option-one" onclick="optionOneClicked()">Option 1</button>
+								<button class="btn quiz-buttons d-block" id="option-two" onclick="optionTwoClicked()">Option 2</button>
+								<button class="btn quiz-buttons d-block" id="option-three" onclick="optionThreeClicked()">Option 3</button>
+							<!-- Quiz Progress Section -->
                                 <p class="quiz-text">
-                                Your on <span id="question-number"></span> of 16 <span id="quiz-tick"></span><br>
-                                </p>
-                                <div class="row justify-content-center">
-                                <span id="last-answer"></span> 
-                                </div>
-                                <div class="row justify-content-center" id="next-button">
-                                <button class="btn btn-sm buttons green-buttons" onclick="nextQuestion()">Next One</button>                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+									Your on <span id="question-number"></span> of 16 <span id="quiz-tick"></span><br>
+	                            </p>
+                                <!-- Users click "Next One" button, when they arrive at last Question
+                                the "Move onto Next Exercise Button" will appear in "last answer" span using javascript -->
+								<div class="row justify-content-center">
+									<span id="last-answer"></span>
+								</div>
+								<div class="row justify-content-center" id="next-button">
+										<button class="btn btn-sm buttons green-buttons" onclick="nextQuestion()">Next One</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
     
     <!-- Javascript Files -->
 
