@@ -185,3 +185,66 @@ The user also has access to the transcription of the audio, which, like the verb
 
     <img src="assets/screenshots/contact-form.jpg" alt="contact-form-screenshot">
     <img src="assets/screenshots/contact-form-complete.jpg" alt="contact-form-complete-screenshot">
+
+### <u>**Functionality Testing**</u>
+
+*The following (all) functionality and interactive features of the entire website were checked to ensure they are working correctly:*
+
+#### ***1. Home Page:***
+
+**Buttons**
+
+- 'Go to Course' button: Border turns yellow when button it is hovered over. Button redirects user to 'Course Exercise' page
+- 'Sign Up for Full Course': Button Border turns yellow when button it is hovered over. Button redirects user to 'Sign Up' page
+
+**Navbar Links**
+
+- The Just Phrasals logo: When clicked it returns users to the homepage
+- Course Exercises link: Link turns yellow when hovered over. When clicked, dropdown menu opens, to show the five course exercises.
+- Excercise links: Each exercise link directs the user to the correct exercise page. 
+- Contact Us link: Link turns yellow when hovered over. The Contact Us link directs users to the Contact Us Page.
+- Hamburger' toggle button: For smaller screens, the hamburger toggle button appears and, when clicked, shows/hides navbar links.
+- This testing process was repeated across all website pages to ensure the navbar functions correctly across all website pages. 
+
+#### ***2. Course Exercises Page:***
+
+- Exercise Boxes: Each box changes color when hovered over. Each box redirects users to the correct exercise page. 
+
+#### *3. Verb Boxes*
+
+*The follow functionality was tested each of the six verbs in all five excercise pages*
+
+ - Each verb box changes color when hovered over
+
+    <img src="assets/screenshots/verb-box.jpg" alt="verb-box-screenshot">
+
+ - Toggle function: when clicked, each verb box reveals the 'Definition and Examples' box. In the screenshot, two verb boxes have been clicked: 
+
+    <img src="assets/screenshots/verb-box-show-example.jpg" alt="verb-box-show-screenshot">
+
+ - When clicked again the 'Definition and Examples' is hidden once again.
+
+    <img src="assets/screenshots/verb-box-hide.jpg" alt="verb-box-hide-screenshot">
+
+
+#### ***4. Up and Down Exercises:***
+
+*The follow functionality was tested in both Up (Exercise One) and Down (Exercise Two):*
+
+ - After users input their answers, they are prompted to click the 'Check Answers' button 
+ - 'Check Answers' button: Border turns yellow when hovered over. When clicked, the 'Check Answers' button activates a Javascript feedback function that gives users feedback on answers.
+ - Feedback function: Reveals a green tick for correct answers and red X for incorrect answers. The users' total score is revealed in the feedback bar along with a feedback comment, where they are prompted to 'Keep trying' haven't answered all questions correctly. 
+ 
+    <img src="assets/screenshots/up-exercise.jpg" alt="up-exercise-screenshot">
+ 
+ - Feedback function (all answers correct): If or when a user gets all answers correct, the feedback function shows six green ticks, reveals the users score of 6 out of 6 and prompts them to move onto the next exercise.
+ 
+    <img src="assets/screenshots/up-exercise-all-right.jpg" alt="up-exercise-all-right-screenshot">
+ 
+ - 'Next Exercise' button: Border turns yellow when hovered over. When clicked, button directs users to the next exercise. 
+ - **Design choice note on 'Next Exercise' button:** The developer has against the option of hiding the 'Next Exercise' button until the user scores 6/6, so as to allow them to move onto the next exercise without having to score full marks. 
+
+
+
+ 
+
