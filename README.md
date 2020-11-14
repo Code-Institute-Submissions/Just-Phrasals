@@ -63,7 +63,7 @@ But users can toggle click to show/hide these definitions/examples, which is a n
 
 The overall color scheme of the website contains neutral colors, dark blues, light blues, greys and whites. Buttons are mainly in green to make them stand out, with a yellow border appearing when a user hovers over them. A small use of green and red is used in other areas -- to indicate when a user gets an answer correct/wrong (green tick or red X), and while green, red and yellow have been chosen for the buttons for the audio player. 
  
- <img src="assets/images/colorscheme.png" alt="colorscheme" style="zoom:20%;" />
+ <img src="assets/images/color-scheme.png" alt="colorscheme">
 
 - #### Fonts
 
@@ -103,8 +103,30 @@ Exercise 4 is based is an audio comprehension exercise, where the user can liste
 The user also has access to the transcription of the audio, which, like the verb definition/examples are hidden from initial view. The user is prompted to click on the transcript bar to toggle show/hide the transcript of the audio.
 
 
+## **TESTING**
 
+
+
+### <u>**User Stories Testing**</u>
+
+####  First Time Visitor Goals
+
+**a) As a First Time Visitor, I want to easily understand the main purpose of the website and quickly understand its structure:**
+
+ - **i)** Upon entering the site the users will immediately understand this is a Phrasal Verb course thanks to the call out slogan ('Become a Phrasal Verb Master') and 'Go to Course' button. Under the 'Go to Course' button located to stand out in the center of the page, two 'explainer' sections are included to explain more about the website's purpose: 'What is a Phrasal Verb' and and explanation of the 'Just Phrasals Course' which explains the purpose of the course and prompts users to start the free course before singing up for the full course. 
  
+<img src="assets/screenshots/call-out-section.jpg" alt="call-out-section">
+<img src="assets/screenshots/explainer-section.jpg" alt="explainer-section">
 
+- **ii)** Upon entering the site, the navigation bar gives the user an overview of the website's simple and clean structure. By clicking on the 'Course Exercises' navbar link, a dropdown menu appears to show the users five basic sections of the course. The navbar also includes a 'Contact Us' link and 'Sign Up for Full Course Button'. The navbar gives a new user an easy overview of the website's entire structure.
 
+<img src="assets/screenshots/navbar-dropdown.jpg" alt="call-out-section">
+
+**b) As a First Time Visitor, I want to easily navigate the website to begin the free course.**
+
+ - **i**) Users can begin the free course by clicking on the 'Go to Course' button, which brings them directly to the 'Course Exercises' page. The exercises are clearly numbered in order and here users can choose 'Exercise One: Up' to start the course.  
+ 
+ <img src="assets/screenshots/course-exc-page.jpg" alt="explainer-section">
+ 
+ - **ii)** Alternatively, users can click on the 'Course Exercises' navbar link and then choose 'Up (Exercise One)' to begin the course (see screenshot above).
 
