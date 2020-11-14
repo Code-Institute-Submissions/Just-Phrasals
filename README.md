@@ -194,8 +194,8 @@ The user also has access to the transcription of the audio, which, like the verb
 
 **Buttons**
 
-- 'Go to Course' button: Border turns yellow when button it is hovered over. Button redirects user to 'Course Exercise' page
-- 'Sign Up for Full Course': Button Border turns yellow when button it is hovered over. Button redirects user to 'Sign Up' page
+- 'Go to Course' button: Border turns yellow when button is hovered over. Button redirects user to 'Course Exercise' page
+- 'Sign Up for Full Course' button: Border turns yellow when button is hovered over. Button redirects user to 'Sign Up' page
 
 **Navbar Links**
 
@@ -212,7 +212,7 @@ The user also has access to the transcription of the audio, which, like the verb
 
 #### *3. Verb Boxes*
 
-*The follow functionality was tested each of the six verbs in all five excercise pages*
+*The follow functionality was tested on each of the six verbs in all five excercise pages*
 
  - Each verb box changes color when hovered over
 
@@ -222,7 +222,7 @@ The user also has access to the transcription of the audio, which, like the verb
 
     <img src="assets/screenshots/verb-box-show-example.jpg" alt="verb-box-show-screenshot">
 
- - When clicked again the 'Definition and Examples' is hidden once again.
+ - When clicked again the 'Definition and Examples' box is hidden once again.
 
     <img src="assets/screenshots/verb-box-hide.jpg" alt="verb-box-hide-screenshot">
 
@@ -233,7 +233,7 @@ The user also has access to the transcription of the audio, which, like the verb
 
  - After users input their answers, they are prompted to click the 'Check Answers' button 
  - 'Check Answers' button: Border turns yellow when hovered over. When clicked, the 'Check Answers' button activates a Javascript feedback function that gives users feedback on answers.
- - Feedback function: Reveals a green tick for correct answers and red X for incorrect answers. The users' total score is revealed in the feedback bar along with a feedback comment, where they are prompted to 'Keep trying' haven't answered all questions correctly. 
+ - Feedback function: Reveals a green tick for correct answers and red X for incorrect answers. The user's total score is revealed in the feedback bar along with a feedback comment, where they are prompted to 'Keep trying' if they haven't answered all questions correctly. 
  
     <img src="assets/screenshots/up-exercise.jpg" alt="up-exercise-screenshot">
  
@@ -242,9 +242,63 @@ The user also has access to the transcription of the audio, which, like the verb
     <img src="assets/screenshots/up-exercise-all-right.jpg" alt="up-exercise-all-right-screenshot">
  
  - 'Next Exercise' button: Border turns yellow when hovered over. When clicked, button directs users to the next exercise. 
- - **Design choice note on 'Next Exercise' button:** The developer has against the option of hiding the 'Next Exercise' button until the user scores 6/6, so as to allow them to move onto the next exercise without having to score full marks. 
+ - **Design choice note on 'Next Exercise' button:** The developer has decided against the option of hiding the 'Next Exercise' button until the user scores 6/6, so as to allow them to move onto the next exercise without having to score full marks. 
 
+ #### ***5. Into Story (Exercise 5):***
 
+ -  After users input their answers, they are prompted to click the 'Check Answers' button 
+ -  'Check Answers' button: Border turns yellow when hovered over. When clicked, the 'Check Answers' button activates a Javascript feedback function that gives users feedback on answers.
+ -  Feedback function: Input boxes for correct answers turn green, while input boxes for incorrect answers turn red. The users' total score is revealed in the feedback bar along with a feedback comment, where they are prompted to 'Keep trying' if they haven't answered all questions correctly. 
+    
+    <img src="assets/screenshots/into-story.jpg" alt="into-story-screenshot">
+
+ -  Feedback function (all answers correct): If or when a user gets all answers correct, all input boxes turn green, reveals the users score of 14 out of 14 and prompts them to move onto the next exercise.
+ 
+    <img src="assets/screenshots/into-story-all-correct.jpg" alt="into-story-all-correct-screenshot">
+
+ -  'Next Exercise' button: Border turns yellow when hovered over. When clicked, button directs users to the next exercise. 
+
+#### ***6. Out and Over Quizzes***:
+
+*The follow functionality was tested in both Out (Exercise Four) and Down (Exercise Five):*
+
+A user is given a question and must choose the right answer out of three multiple choice options. They must keep clicking until they reveal the right answer. 
+
+ -	When a user clicks on a wrong answer, the click activates a Javascript function that turns the answer box red (see screenshot 1) 
+ -	If a user clicks on a second wrong answer, the click activates a Javascript function that turns the answer box red (see screenshot 2)
+
+    <img src="assets/screenshots/quiz-wrong-answer.jpg" alt="quiz-wrong-answer-screenshot"> <img src="assets/screenshots/quiz-wrong-answer-two.jpg" alt="quiz-wrong-answer-two-screenshot">
+
+ -	When a user clicks on the correct answer, the click activates a Javascript function that turns the answer box green; a green tick is revealed in the progress bar and the user is prompted to move to next question.
+ 
+     <img src="assets/screenshots/quiz-correct-answer.jpg" alt="quiz-correct-answer-screenshot">
+
+ -	This functionality was checked on all questions in both quizzes. 
+ -	'Next One' button: Clicking the Next One button activates a Javascript function that makes the next question and answer options appear, while also changing the number in the progress bar to the number of the corresponding question (1 of 16; 2 of 16; 3 of 16, and so on). In the screenshot example, the user has moved to question two after having pressed the 'Next One' button in question one. 
+
+​	 <img src="assets/screenshots/quiz-next.jpg" alt="quiz-next-screenshot">
+
+-  This functionality was checked on all questions in both quizzes. 
+
+-  'Next Exercise' button: When users click on the 'Next One' button to reach the final question of the quiz, the 'Next One' button transforms to the 'Move onto Next Exercise' button, which allows users to move on to the next exercise.
+
+     <img src="assets/screenshots/quiz-end.jpg" alt="quiz-end-screenshot">
 
  
+#### ***7. Audio Player and Transcript (Over Exercise - 5)***
 
+ - Play button: Changes color when hovered over. When clicked, it activates a Javascript funtion that plays the audio dialogue.
+
+     <img src="assets/screenshots/audio-player.jpg" alt="audio-player-screenshot">
+
+ - Stop button: Changes color when hovered over. When clicked, it activates a Javascript funtion that stops the audio dialogue and returns it to the start.
+
+ - Stop button: Changes color when hovered over. When clicked, it activates a Javascript funtion that pauses the the audio dialogue.
+
+ - Transcript bar toggle click show/hide: Changes color when hovered over. When clicked, the transcript reveals the transcription (screenshot one) When clicked again the transcription is hidden once again (screenshot two).
+
+    <img src="assets/screenshots/audio-player.jpg" alt="audio-player-screenshot"> <img src="assets/screenshots/audio-player.jpg" alt="audio-player-screenshot">
+
+#### ***8. Contact and Sign Up Pages:***
+
+- Functionality of the Contact Form and Sign Up Form and the Sign Up Reviews scroll have already been covered in the Users Story Testing - Returning Visitors section ()
