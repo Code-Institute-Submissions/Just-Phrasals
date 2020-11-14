@@ -11,7 +11,7 @@ There are 1000s of phrasal verbs and learners will never learn and use them all 
 The format of the website takes the style of a traditional language-learning workbook, but made more dynamic thanks to interactive elements made available through a digital platform, including audio, interactive quizzes, instant feedback on answers submitted and other elements to click and toggle. This first version of the Just Phrasals website is designed to be a “bite-size”, “free sample course”, after which the users are prompted to Sign Up for the full course for a reasonable fee. (Design of the full course was beyond the scope of this project, but the elements and process to sign up for said course have been included to demonstrate functionality of that process).
 
 ## **UX**
-
+---
 ### <u>**User Stories**</u>
 
 After extensive evaluation of the profiles of English language learners in our modern digital world, the website was created for the the following user profiles:
@@ -104,29 +104,84 @@ The user also has access to the transcription of the audio, which, like the verb
 
 
 ## **TESTING**
-
+---
 
 
 ### <u>**User Stories Testing**</u>
 
-####  First Time Visitor Goals
+####  **<em>First Time Visitor Goals</em>**
 
 **a) As a First Time Visitor, I want to easily understand the main purpose of the website and quickly understand its structure:**
 
- - **i)** Upon entering the site the users will immediately understand this is a Phrasal Verb course thanks to the call out slogan ('Become a Phrasal Verb Master') and 'Go to Course' button. Under the 'Go to Course' button located to stand out in the center of the page, two 'explainer' sections are included to explain more about the website's purpose: 'What is a Phrasal Verb' and and explanation of the 'Just Phrasals Course' which explains the purpose of the course and prompts users to start the free course before singing up for the full course. 
- 
-<img src="assets/screenshots/call-out-section.jpg" alt="call-out-section">
-<img src="assets/screenshots/explainer-section.jpg" alt="explainer-section">
+- **i)** Upon entering the site, users will immediately understand this is a Phrasal Verb course thanks to the call out slogan ('Become a Phrasal Verb Master') and 'Go to Course' button. Under the 'Go to Course' button (located to stand out in the center of the page as the main call-to-action), two 'explainer' sections are included to explain more about the website's purpose: 'What is a Phrasal Verb?'; and an explanation of the 'Just Phrasals Course', which explains the purpose of the course and prompts users to start the free course before singing up for the full course. 
 
-- **ii)** Upon entering the site, the navigation bar gives the user an overview of the website's simple and clean structure. By clicking on the 'Course Exercises' navbar link, a dropdown menu appears to show the users five basic sections of the course. The navbar also includes a 'Contact Us' link and 'Sign Up for Full Course Button'. The navbar gives a new user an easy overview of the website's entire structure.
+    <img src="assets/screenshots/call-out-section.jpg" alt="call-out-section-screenshot">
+    <img src="assets/screenshots/explainer-section.jpg" alt="explainer-section-screenshot">
 
-<img src="assets/screenshots/navbar-dropdown.jpg" alt="call-out-section">
+- **ii)** Upon entering the site, the navigation bar gives the user an overview of the website's simple and clean structure. By clicking on the 'Course Exercises' navbar link, a dropdown menu appears to show users five basic sections of the course. The navbar also includes a 'Contact Us' link and 'Sign Up for Full Course Button' (see screenshot in section c-i). The navbar gives a new user an easy overview of the website's entire structure.
+
+    <img src="assets/screenshots/navbar-dropdown.jpg" alt="navbar-dropdown-menu-screenshot">
 
 **b) As a First Time Visitor, I want to easily navigate the website to begin the free course.**
 
  - **i**) Users can begin the free course by clicking on the 'Go to Course' button, which brings them directly to the 'Course Exercises' page. The exercises are clearly numbered in order and here users can choose 'Exercise One: Up' to start the course.  
  
- <img src="assets/screenshots/course-exc-page.jpg" alt="explainer-section">
+    <img src="assets/screenshots/course-exc-page.jpg" alt="course-exercise-page-screenshot.">
  
- - **ii)** Alternatively, users can click on the 'Course Exercises' navbar link and then choose 'Up (Exercise One)' to begin the course (see screenshot above).
+ - **ii)** Alternatively, users can click on the 'Course Exercises' navbar link and then choose 'Up (Exercise One)' to begin the course (see screenshot above in section a-ii).
 
+**c) As a First Time Visitor, I want to immediately sign up for the full paid course.**
+
+ - **i)** Users can easily locate the 'Sign Up for Full Course' button on the right side of the navbar, which will bring them directly to the 'Sign Up' page.
+
+    <img src="assets/screenshots/signup-button.jpg" alt="signup-button-screenshot">
+
+ - **ii)** Upon entering the 'Sign Up' page, users fill out a simple form (name and email). Upon clicking the 'Sign Up' button, an alert box appears to tell them they will soon receive full course payment and download details.
+
+    <img src="assets/screenshots/signup-form.jpg" alt="sign-up-form-screenshot">
+    <img src="assets/screenshots/signup-complete.jpg" alt="sign-up-complete-screenshot">
+
+####  **<em>Returning Visitor Goals</em>**
+
+**a) As a Returning Visitor who has started the free course, I want to continue the course from where I last left off.**
+
+ - **i)** Users can click on the 'Go to Course' button, which takes them directly to the 'Course Exercises' page. The exercises are clearly numbered in order and here users can pick the exercise of their choosing. A simple UX feature has been added here, where when a user hovers over an exercise box it will change color (see screenshot).
+    
+    <img src="assets/screenshots/course-exc-box.jpg" alt="course-exercise-box-screenshot">
+ 
+ - **ii)** Alternatively, users can click on the 'Course Exercises' navbar link and then pick the exercise of their choosing (see screenshot above in First Time Visitor Goals section a-i).
+
+**b) As a Returning Visitor who has completed the free course, I want to sign up for the full course.**
+
+ - **i)** Users have a number of ways to to sign up for the full course upon completion of the free course. Firstly, they can click on the 'Sign Up for Full Course' from the navbar at any time or at any part of the course.
+ - **ii)** Users can click on the 'Go to Course' button, which directs them to the 'Course Exercises' page. Here, they can also access the 'Sign Up for Full Course' page by clicking on the 'Sign up For Full Course' box, which is the last 'exercise box' on the page.
+    
+    <img src="assets/screenshots/full-course-exc-box.jpg" alt="full-course-exercise-box-screenshot">
+
+ - **iii)** Having completed the final exercise of the free course (Over - Exercise 5), a button appears which prompts users to 'Move onto Next Exercise', which directs them to the 'Sign Up for Full Course' page.
+ 
+    <img src="assets/screenshots/final-exc-button.jpg" alt="final-exercise-button-screenshot">
+ 
+ - **iiii)**  Upon entering the 'Sign Up' page, users fill out a simple form (name and email). Upon clicking the 'Sign Up' button, an alert box appears to tell them they will soon receive full course payment and download details (as explained in First Time User Goals section c-ii, with relevant screenshots).
+
+**c) As a Returning Visitor interested in signing up for the full course, I want to learn more about the full course before signing up.**
+
+ - **i)** Having been directed to the 'Sign Up for Full Course' page, users are given a brief overview of the 	course and can scroll through some user reviews of the course. Clicking on the green arrow buttons at either side of the reviews allows users to scroll forward (right button) or back (left button) through the reviews.
+    
+    <img src="assets/screenshots/reviews.jpg" alt="reviews-screenshot"> <img src="assets/screenshots/reviews-scroll.jpg" alt="reviews-scroll-screenshot"> 
+  
+ - **ii)**  Having entered the 'Sign Up for Full Course' page, users are also prompted to get in touch with any specific queries they have by clicking on the 'Contact' button, which directs them to the 'Contact Us' page (see next section for more info).
+
+    <img src="assets/screenshots/sign-up-contact.jpg" alt="sign-up-contact-button-screenshot">
+
+**d) As a Returning Visitor interested in signing up for the paid course, I want to know how to contact the course developers with any questions I may have before signing up.**
+
+ - **i)** Having entered the 'Sign Up for Full Course', users can reach the contact page as explained immediately above in the Returning User Goals section  c-ii. 
+ - **ii)** Users can easily reach the 'Contact Us' page from the navbar at any time.
+    
+    <img src="assets/screenshots/contact-nav-button.jpg" alt="contact-nav-button-screenshot">
+
+ - **iii)** Having entered the 'Contact Us' page, users fill out a simple form (name, email and query). Once they click send, an alert box appears to say that their query will be responded to as soon as possible.
+
+    <img src="assets/screenshots/contact-form.jpg" alt="contact-form-screenshot">
+    <img src="assets/screenshots/contact-form-complete.jpg" alt="contact-form-complete-screenshot">
