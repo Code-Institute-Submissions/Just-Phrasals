@@ -106,6 +106,10 @@ The user also has access to the transcription of the audio, which, like the verb
 ## **TESTING**
 ---
 
+- The website was tested on Google Chrome, Microsoft Edge, Firefox and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, Tablet, iPhone 6s, iPhone SE, Huawei Y6, Huawei P9 and Samsung Phones.
+- A large amount of testing was done to ensure that all pages were linking correctly, and buttons and forms sections were working as intended (more details below).
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### <u>**User Stories Testing**</u>
 
@@ -301,4 +305,4 @@ A user is given a question and must choose the right answer out of three multipl
 
 #### ***8. Contact and Sign Up Pages:***
 
-- Functionality of the Contact Form and Sign Up Form and the Sign Up Reviews scroll have already been covered in the Users Story Testing - Returning Visitors section ()
+- Functionality of the Contact Form and Sign Up Form and the Sign Up Reviews scroll have already been covered in the Users Story Testing - Returning Visitors section.
