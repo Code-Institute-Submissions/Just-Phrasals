@@ -72,83 +72,82 @@ const overQuizQuestions = [
         ],
     },
 
-]
+];
 
 
-let overQuizQuestion = document.getElementById("over-quiz-question")
-let overOptionOne = document.getElementById("over-option-one")
-let overOptionTwo = document.getElementById("over-option-two")
-let overOptionThree = document.getElementById("over-option-three")
-let overQuestionNumber = document.getElementById("over-question-number")
-let overQuizTick = document.getElementById("over-quiz-tick")
-let lastAnswer = document.getElementById("last-answer")
-let nextButton = document.getElementById("next-button")
+let overQuizQuestion = document.getElementById("over-quiz-question");
+let overOptionOne = document.getElementById("over-option-one");
+let overOptionTwo = document.getElementById("over-option-two");
+let overOptionThree = document.getElementById("over-option-three");
+let overQuestionNumber = document.getElementById("over-question-number");
+let overQuizTick = document.getElementById("over-quiz-tick");
+let lastAnswer = document.getElementById("last-answer");
+let nextButton = document.getElementById("next-button");
 
-let index = 0
+let index = 0;
 
 window.addEventListener("DOMContentLoaded", function(){
-    overQuizQuestion.innerHTML = overQuizQuestions[index].question
-    overOptionOne.innerHTML = overQuizQuestions[index].answers[0].text
-    overOptionTwo.innerHTML = overQuizQuestions[index].answers[1].text
-    overOptionThree.innerHTML = overQuizQuestions[index].answers[2].text
-    overQuestionNumber.innerHTML = 1
+    overQuizQuestion.innerHTML = overQuizQuestions[index].question;
+    overOptionOne.innerHTML = overQuizQuestions[index].answers[0].text;
+    overOptionTwo.innerHTML = overQuizQuestions[index].answers[1].text;
+    overOptionThree.innerHTML = overQuizQuestions[index].answers[2].text;
+    overQuestionNumber.innerHTML = 1;
 });
 
 function overOptionOneClicked() {
     if (overQuizQuestions[index].answers[0].correct == true) {
-        overOptionOne.classList.add("correctButton")
-        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`
+        overOptionOne.classList.add("correctButton");
+        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`;
     } else {
-        overOptionOne.classList.add("wrongButton")
+        overOptionOne.classList.add("wrongButton");
     }
 
 }
 
 function overOptionTwoClicked() {
     if (overQuizQuestions[index].answers[1].correct == true) {
-        overOptionTwo.classList.add("correctButton")
-        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`
+        overOptionTwo.classList.add("correctButton");
+        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`;
     } else {
-        overOptionTwo.classList.add("wrongButton")
+        overOptionTwo.classList.add("wrongButton");
     }
 }
 
 
 function overOptionThreeClicked() {
     if (overQuizQuestions[index].answers[2].correct == true) {
-        overOptionThree.classList.add("correctButton")
-        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`
+        overOptionThree.classList.add("correctButton");
+        overQuizTick.innerHTML = `<i class="fas fa-check-circle"></i> <span>Next!</span>`;
     } else {
-        overOptionThree.classList.add("wrongButton")
+        overOptionThree.classList.add("wrongButton");
     }
 }
 
 
-function  incrementIndex() {overQuestionNumber.innerHTML = index + 1}
+function  incrementIndex() {overQuestionNumber.innerHTML = index + 1;}
 
 
 function question() {
-    index ++
-    console.log(index)
+    index ++;
 
     incrementIndex()
     
-    overOptionOne.classList.remove("correctButton")
-    overOptionOne.classList.remove("wrongButton")
-    overOptionTwo.classList.remove("correctButton")
-    overOptionTwo.classList.remove("wrongButton")
-    overOptionThree.classList.remove("correctButton")
-    overOptionThree.classList.remove("wrongButton")
-    overQuizTick.innerHTML = ""
+    overOptionOne.classList.remove("correctButton");
+    overOptionOne.classList.remove("wrongButton");
+    overOptionTwo.classList.remove("correctButton");
+    overOptionTwo.classList.remove("wrongButton");
+    overOptionThree.classList.remove("correctButton");
+    overOptionThree.classList.remove("wrongButton");
+    overQuizTick.innerHTML = "";
 
-    overQuizQuestion.innerHTML = overQuizQuestions[index].question
-    overOptionOne.innerHTML = overQuizQuestions[index].answers[0].text
-    overOptionTwo.innerHTML = overQuizQuestions[index].answers[1].text
-    overOptionThree.innerHTML = overQuizQuestions[index].answers[2].text
+    overQuizQuestion.innerHTML = overQuizQuestions[index].question;
+    overOptionOne.innerHTML = overQuizQuestions[index].answers[0].text;
+    overOptionTwo.innerHTML = overQuizQuestions[index].answers[1].text;
+    overOptionThree.innerHTML = overQuizQuestions[index].answers[2].text;
 
     if (index === overQuizQuestions.length - 1 ) {
-        lastAnswer.innerHTML = `<a href="signup.html" class="btn btn-sm buttons green-buttons">Move onto Next Exercise</a>`
-        nextButton.innerHTML = ""
+        lastAnswer.innerHTML = `<a href="signup.html" class="btn btn-sm buttons green-buttons">Move onto Next Exercise</a>`;
+        nextButton.innerHTML = "";
         
     }
 }
