@@ -236,7 +236,7 @@ function nextQuestion() {
     optionThree.innerHTML = quizQuestions[index].answers[2].text
 
     if (index === quizQuestions.length -1 ) {
-        lastAnswer.innerHTML = `<a href="over.html"><button class="btn btn-sm buttons green-buttons">Move onto Next Exercise</button></a>`
+        lastAnswer.innerHTML = `<a href="over.html class="btn btn-sm buttons green-buttons">Move onto Next Exercise</a>`
         nextButton.innerHTML = ""
         
     }

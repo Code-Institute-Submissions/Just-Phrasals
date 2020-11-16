@@ -186,6 +186,10 @@ body {
     border: solid 2px #ffe507;
 }
 
+a:hover {
+    color: white
+}
+
 .green-buttons {
     background-color: rgb(4, 173, 4);
     border: solid 2px rgb(4, 173, 4);

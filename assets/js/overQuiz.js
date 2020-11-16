@@ -147,7 +147,7 @@ function question() {
     overOptionThree.innerHTML = overQuizQuestions[index].answers[2].text
 
     if (index === overQuizQuestions.length - 1 ) {
-        lastAnswer.innerHTML = `<a href="signup.html"><button class="btn btn-sm buttons green-buttons">Move onto Next Exercise</button></a>`
+        lastAnswer.innerHTML = `<a href="signup.html" class="btn btn-sm buttons green-buttons">Move onto Next Exercise</a>`
         nextButton.innerHTML = ""
         
     }
