@@ -52,24 +52,24 @@ const reviews = [
 ];
 
 
-let review = document.getElementById("quote")
-let person = document.getElementById("person")
+let review = document.getElementById("quote");
+let person = document.getElementById("person");
 
-let index = 0
+let index = 0;
 
 window.addEventListener("DOMContentLoaded", function(){
-    review.innerHTML = reviews[index].quote
-    person.innerHTML = reviews[index].person
+    review.innerHTML = reviews[index].quote;
+    person.innerHTML = reviews[index].person;
 });
 
 
 function prevButton() {
-    index--
+    index--;
     if (index < 0 ) {
         index = reviews.length - 1;
     }
-    review.innerHTML = reviews[index].quote
-    person.innerHTML = reviews[index].person
+    review.innerHTML = reviews[index].quote;
+    person.innerHTML = reviews[index].person;
 }
 
 function nextButton() {
@@ -77,6 +77,6 @@ function nextButton() {
     if (index > reviews.length - 1) {
         index = 0;
     }
-    review.innerHTML = reviews[index].quote
-    person.innerHTML = reviews[index].person
+    review.innerHTML = reviews[index].quote;
+    person.innerHTML = reviews[index].person;
 }
