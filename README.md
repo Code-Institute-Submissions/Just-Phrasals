@@ -333,3 +333,20 @@ A user is given a question and must choose the right answer out of three multipl
 #### ***8. Contact and Sign Up Pages:***
 
 - Functionality of the Contact Form and Sign Up Form and the Sign Up Reviews scroll have already been covered in the Users Story Testing - Returning Visitors section.
+
+## <u>**Validation**</u>
+
+W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the code in the project to ensure there were no errors.
+
+- [W3C Markup Validator](https://validator.w3.org/)
+    - No errors were detected in any of the HTML code after running the code through the validator.
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - No errors in the CSS code were detected after running the CSS code through the validator.
+
+- [JSHint](https://jshint.com/)
+    - No errors were detected in the Javascript code after running the code through JSHint.
+
+## <u>**Known bugs**</u>
+
+-  On some mobile devices, the homepage main image resizes sightly when a user scrolls down the page, causing a "flicker" effect.
