@@ -357,7 +357,7 @@ W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the cod
 
 ### <strong>Development</strong> 
 
--   The intial wireframes for the project were created using Balsamic and can be viewed here: 
+-   The intial wireframes for the project were created using Balsamic and can be viewed here: [normal](assets/wireframes/just-phrasal-wireframes.pdf); [mobile](assets/wireframes/just-phrasal-mobile-wireframes.pdf)
 -   The project was developed using the [Gitpod online IDE](https://www.gitpod.io/).
 -   The project was regularly commited using the Git command line interface on Gitpod.
 -   After each commit, the project was pushed to Github for deployment.
