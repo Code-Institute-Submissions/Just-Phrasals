@@ -34,7 +34,7 @@ const quizQuestions = [
 
     // Question 4
     {
-        question: "When a caterpillar ..... a butterfly, it can fly away:",
+        question: "When a caterpillar ..... a butterfly, it can fly away.",
         answers: [
             { text: "breaks into", correct: false },
             { text: "goes into", correct: false },
