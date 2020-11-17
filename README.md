@@ -67,7 +67,7 @@ The overall color scheme of the website contains neutral colors, dark blues, lig
 
 - #### Fonts
 
-Xxxxxxxxxx
+The main font used for body text is 'Helvetica' (Bootstrap built-in font), while 'Ramabhadra' was chosen for headings, titles and the Just Phrasals logo. 
 
 - #### Imagery
 
@@ -101,6 +101,33 @@ Once they reach the final question, the 'Next Question' button changes to a 'Mov
 Exercise 4 is based is an audio comprehension exercise, where the user can listen to audio dialogue using the built-in audio player. The simple audio player contains three buttons, Play (Green), Stop (Red) and Pause (Yellow). 
 
 The user also has access to the transcription of the audio, which, like the verb definition/examples are hidden from initial view. The user is prompted to click on the transcript bar to toggle show/hide the transcript of the audio.
+
+## Technologies Used
+-----
+### <strong>Languages Used</strong>
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+### <strong>Frameworks, Libraries & Programs Used</strong>
+
+- [Bootstrap:](https://getbootstrap.com/)
+    -   Bootstrap was used to assist with the responsiveness, positioning and styling of elements of the website. 
+- [Google Fonts:](https://fonts.google.com/)
+    - Google fonts was used to import the 'Ramabhadra' fonts into the style.css file which is used on all pages throughout the project.
+- [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+- [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap and has been used to create the navbar toggler function and verb box toggle function.
+- [Gitpod:](https://www.gitpod.io//)
+    - Gitpod was used as the IDE to develop the project.
+- [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+- [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
 
 
 ## **TESTING**
