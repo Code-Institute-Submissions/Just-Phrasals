@@ -102,7 +102,7 @@ Exercise 4 is based is an audio comprehension exercise, where the user can liste
 
 The user also has access to the transcription of the audio, which, like the verb definition/examples are hidden from initial view. The user is prompted to click on the transcript bar to toggle show/hide the transcript of the audio.
 
-## Technologies Used
+## **TECHNOLOGIES USED**
 -----
 ### <strong>Languages Used</strong>
 
@@ -334,7 +334,7 @@ A user is given a question and must choose the right answer out of three multipl
 
 - Functionality of the Contact Form and Sign Up Form and the Sign Up Reviews scroll have already been covered in the Users Story Testing - Returning Visitors section.
 
-## <u>**Validation**</u>
+### <u>**Validation**</u>
 
 W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the code in the project to ensure there were no errors.
 
@@ -347,6 +347,53 @@ W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the cod
 - [JSHint](https://jshint.com/)
     - No errors were detected in the Javascript code after running the code through JSHint.
 
-## <u>**Known bugs**</u>
+### <u>**Known bugs**</u>
 
 -  On some mobile devices, the homepage main image resizes sightly when a user scrolls down the page, causing a "flicker" effect.
+
+
+## **DEPLOYMENT**
+-----
+
+### <strong>Development</strong> 
+
+-   The intial wireframes for the project were created using Balsamic and can be viewed here: 
+-   The project was developed using the [Gitpod online IDE](https://www.gitpod.io/).
+-   The project was regularly commited using the Git command line interface on Gitpod.
+-   After each commit, the project was pushed to Github for deployment.
+
+### <strong>GitHub Pages</strong> 
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jonathanmeaney-lmk/Just-Phrasals)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch" and save.
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://jonathanmeaney-lmk.github.io/Just-Phrasals/) in the "GitHub Pages" section.
+
+## **CREDITS**
+-----
+
+### **Images:**
+
+- All images have been sourced from Adobe Stock, for which the developer has a licence:
+    1. [Homepage image](https://stock.adobe.com/ie/images/portrait-of-happy-young-mixed-races-curly-woman-sitting-on-floor-with-laptop-and-celebrate-win/231174539)
+    2. [Course Exercises page image](https://stock.adobe.com/ie/images/happy-attractive-woman-standing-over-gray-white-background-and-looking-at-camera-with-calm-confident-smile/380695735)
+    3. [Contact page image](https://stock.adobe.com/ie/images/african-american-business-girl-smiling-at-camera-studio-shot/286431017)
+    4. [Sign Up page image](https://stock.adobe.com/ie/images/happy-and-wow-face-of-asian-man-use-smartphone-on-isolated-gray-background/245655858)
+    5. [Up page image](https://stock.adobe.com/ie/images/photo-of-cheerful-funky-positive-intelligent-man-smiling-toothily-holding-hands-in-pockets-isolated-over-grey-color-background/295878836)
+    6. [Down page image](https://stock.adobe.com/ie/images/smiling-asian-business-woman-in-eyeglasses-holding-laptop-computer/187319432)
+    7. [Into page image](https://stock.adobe.com/ie/images/smiling-african-american-man-look-at-blank-copy-space/297285595)
+    8. [Out page image](https://stock.adobe.com/ie/images/smiling-african-american-man-look-at-blank-copy-space/297285595)
+    9. [Over page image](https://stock.adobe.com/ie/images/portrait-of-happy-smiling-young-businessman-in-confident-suit-on-grey-background-business-success-concept/314213149)
+
+### **Code:**
+
+- The CSS code used for the Homepage image container, Course Excercises image container and heading image containers for each page, is generally based on code from this [this blog post on csstricks.com](https://css-tricks.com/perfect-full-page-background-image/)
+- The array structure for the quiz questions in overQuiz.js and outQuiz.js came from this [YouTube tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k&t=81s)
+
+### **Content:** 
+
+- All written and audio content has been created by the website developer, Jonathan Meaney. 
